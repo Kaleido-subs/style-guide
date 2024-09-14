@@ -32,7 +32,7 @@ but some groups such as Kaleido use British English for its subtitles.
 
 Below is a quick overview of some common differences between British and American English.
 
-!!! Example "Differences between British and American English"
+!!! example "Differences between British and American English"
 
     === "-ise/-ize"
 
@@ -179,7 +179,7 @@ as punctuation rules and styles vary greatly between languages.
 The use of quotation marks varies between British and American English,
 
 
-!!! Example "Differences between British and American English"
+!!! example "Differences between British and American English"
 
     === "British English"
 
@@ -305,7 +305,7 @@ and should be avoided.
 Below are a few examples of garden-pathing,
 and how you may go about rewriting them[^gardenpath].
 
-!!! Example "Garden-pathing"
+!!! example "Garden-pathing"
     === "Example A"
 
         !!! Quote "Example Sentence"
