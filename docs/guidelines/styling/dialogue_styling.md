@@ -31,6 +31,7 @@ If you're unsure about what font to use,
 it's a good idea to grab established styling from the bigger fansubbing groups
 and use that as a base for your own.
 The default Kaleido font is [LTFinnegan](https://eng.fontke.com/family/145020/).
+A collection of common styles can be found [here](./common_dialogue_styling.md).
 
 ![Kaleido-subs house style](./img/styling/kaleido-house-style.png)
 

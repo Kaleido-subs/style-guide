@@ -18,12 +18,13 @@ theme:
 
 nav:
   - Home: index.md
-  - Dialogue Styling: dialogue_styling.md
-  - Timing: timing.md
-  - Editing: editing.md
-  - Shenanigans: shenanigans.md
-  - Technical: technical.md
-  - Song Styling: songstyling.md
+  - Guidelines:
+    - Dialogue Styling: guidelines/styling/dialogue_styling.md
+    - Timing: guidelines/timing.md
+    - Editing: guidelines/editing.md
+    - Shenanigans: guidelines/shenanigans.md
+    - Song Styling: guidelines/styling/songstyling.md
+    - Technical: guidelines/technical.md
   - Additional Resources: resources.md
 
 plugins:
