@@ -244,16 +244,17 @@ and if the characters-per-second (CPS) allows for it.
 !!! Abstract "Chicago Manual of Style"
     The [Chicago Manual of Style](https://www.chicagomanualofstyle.org/) has the following rules for numbers:
 
-    -   Spell out numbers one through one hundred (Chicago’s general rule).
+    -   Spell out numbers one through one hundred.
     -   Spell out multiples of one through one hundred used in combination with hundred, thousand,<br>
         or hundred thousand.
 
     These are for written text so are not always applicable to subtitles,
     but they're generally good rules to follow.
 
-In certain cases,
-certain numbers appear often in a show.
-These should ideally be handled consistently throughout the project.
+In some cases,
+certain numbers appear frequently in a show.
+These should ideally be handled consistently throughout the project,
+and be edited while considering how that may impact future lines.
 
 | Original                         | Avoid                                                            |
 | -------------------------------- | ---------------------------------------------------------------- |
@@ -270,16 +271,16 @@ and should always be written in numeric form.
 
 ### Sentence structure
 
-Dialogue flow is one of the core things that Kaleido editors focus on.
+Dialogue flow is one of the core things that Kaleido editors focus on most.
 Subtitles are timed to fit the dialogue,
 and as such,
-it's important to make it as easy as possible for the viewer to understand in a short amount of time.
-Dialogue should also be easy to follow and sound natural.
+it's important to make it as easy as possible for the viewer to understand in a short amount of time
+while flowing naturally.
 
-Sentences should be broken up into smaller clauses where possible,
-and given to the viewer in a clear and concise manner.
+Sentences should be broken up into smaller clauses where reasonable,
+and presented to the viewer in a clear and concise manner.
 Ambiguity should be avoided,
-unless the original script is ambiguous on purpose,
+unless the original script calls for it,
 and may require some rewriting to make it clearer.
 
 Japanese grammar is different from English,

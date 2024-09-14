@@ -14,10 +14,10 @@ but they should all generally adhere to the following guidelines.
 ## Base Style
 
 The base style is the default style for all dialogue.
-You want to make sure it's easy to read,
+You want to make sure it's easy to read
 and not too distracting.
 
-!!! example "Styles used by different groups"
+!!! example "Styles used by various groups"
     === "Kaleido"
 
          ![Kaleido-subs dialogue style](./img/styling/groups/kaleido.png)
@@ -36,9 +36,9 @@ and not too distracting.
 
     === "SubsPlease"
 
-        !!! Danger "Upsampled (640×360 ⇒ 1920×1080)"
-
          ![SubsPlease dialogue style](./img/styling/groups/subsplease.png)
+
+        !!! Danger "Upsampled (640×360 ⇒ 1920×1080)"
 
          ```markdown
          Style: Default,Roboto Medium,78,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,3.9,0,2,60,60,69,1
@@ -67,14 +67,6 @@ and not too distracting.
          Style: Default,Slate Pro Medium,70,&H00FFFFFF,&H00FFFFFF,&H00000000,&H96000000,0,0,0,0,100,100,0,0,1,3,1.5,2,255,255,60,1
          ```
 
-    === "9volt"
-
-         ![9volt dialogue style](./img/styling/groups/9volt.png)
-
-         ```markdown
-         Style: Default,Volkhov,69,&H00FFFFFF,&H000000FF,&H00052030,&HA0052030,-1,0,0,0,100,105,0,0,1,4.75,2.1,2,275,275,60,1
-         ```
-
 ### Font
 
 Like with most things fonts,
@@ -91,19 +83,15 @@ there are a handful of ground-rules that should be followed:
    but serifs can work if they are clean and easy to read,
    and fit the style and aesthetics of the show.
 
-If you're unsure about what font to use,
+If you're unsure about which font to use,
 it's a good idea to grab established styling from the bigger subtitling groups
 and use that as a base for your own.
-The default Kaleido font is [LTFinnegan](https://eng.fontke.com/family/145020/),
-as can be seen above.
 
 <details class="example">
    <summary>Examples of good dialogue fonts</summary>
 
    <img src="../img/styling/common-dialogue-fonts.png" alt="Common subtitling dialogue fonts">
 </details>
-
-Popular options include Gandhi Sans, Cabin, and Lato.
 
 There may be times where a serif font is preferred,
 based on the style of the show.
@@ -115,8 +103,7 @@ but there is more leeway in terms of what font to choose.
 The size of the dialogue is determined by the font size.
 This should be set to a value that is large enough to be easily read,
 but not so large that it takes up too much of the screen.
-For Kaleido,
-we use a font size of 72 for the dialogue style.
+Values between 70 and 80 are generally recommended.
 
 An often-overlooked part of fonts to consider is line spacing.
 If spaced too far apart,
@@ -172,8 +159,8 @@ A common mantra for colour choices in the fansubbing community is:
 
 ![White text with a black border can be read on any color!](./img/styling/white-text.png)
 
-Colours with a similar effect are yellow and cyan,
-but those are generally harder to read,
+Colours with a similar effect is yellow,
+but that's generally harder to read,
 and may cause eye strain.
 
 Avoid changing the colour of dialogue
@@ -203,10 +190,13 @@ that is kept at the same alignment as the dialogue it is overlapping.
 A distinction must be made,
 so most subtitling groups will use a different border colour.
 
-!!! example
-    Kaleido typically uses a dark-blue border for overlapping dialogue.
+!!! example "Alt styles used by various groups"
+    === "Kaleido"
+       ![Kaleido-subs overlapping dialogue style](./img/styling/groups/kaleido-alt.png)
 
-    ![Kaleido-subs overlapping dialogue style](./img/styling/groups/kaleido-alt.png)
+       ```markdown
+       Style: Default,LTFinnegan Medium,72,&H00FFFFFF,&H00FFFFFF,&H00000000,&HA0000000,0,0,0,0,100,100,0,0,1,3.6,1.5,2,200,200,60,1
+       ```
 
 For streaming services,
 it's more common to display overlapping dialogue
@@ -257,8 +247,7 @@ so as not to distract the viewer's attention.
 We will cover this in more depth in the [shenanigans](../shenanigans.md) document.
 
 !!! example "More 'fun' positioning"
-
-     ![Dialogue positioned at the speaker's head](./img/styling/wacky-positioning.png)
+    ![Dialogue positioned at the speaker's head](./img/styling/wacky-positioning.png)
 
 ### Margins
 
@@ -273,12 +262,7 @@ it will start breaking lines more aggressively,
 which can have a negative impact
 on the timing and editing of the line.
 
-
 !!! example "Kaleido's default margins"
-    For Kaleido,
-    we set a margin of 200px for the left and right edges,
-    and 60 on the top and bottom edges.
-
     ![Kaleido's default margins](./img/styling/kaleido-house-style-margins.png)
 
 Margins also decide when a line of dialogue will be automatically broken.
@@ -345,8 +329,8 @@ and does not overpower the dialogue.
 ## Resampling
 
 !!! danger
-      Only resample subtitles if you're authoring them yourself!
-      Don't blindly resample dialogue from other releases!
+    Only resample subtitles if you're authoring them yourself!
+    Don't blindly resample dialogue from other releases!
 
 When dealing with different resolutions,
 dialogue styles should be resampled to the storage resolution.
