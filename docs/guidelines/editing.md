@@ -1,10 +1,5 @@
 # Editing Guidelines
 
-!!! Danger "Editing Guidelines"
-    Always ensure your editing follows the guidelines
-    provided to you by the group or company you work for!<br>
-    This is especially important if you're working in an official capacity.
-
 Editing plays a crucial role in fansubbing,
 helping to make the original text more accessible
 and ensuring the intended message is effectively conveyed.

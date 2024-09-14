@@ -1,5 +1,10 @@
 # The Kaleido Subtitling Style Handbook
 
+!!! Danger "Editing Guidelines"
+    Always ensure you follow the guidelines provided to you
+    by the group or company you work for!<br>
+    This is especially important if you're working in an official capacity.
+
 This document covers different aspects of subtitling best practices.
 These guidelines are tailored to portraying subtitles in a way
 that is both accessible and appealing to viewers.
