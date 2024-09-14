@@ -11,12 +11,13 @@ Many guidelines covered here are in line with common practices
 in the English fansubbing community,
 but may deviate in certain aspects.
 When subtitling in English or other languages,
-always refer to the style guide of the group or company you're working for.
+always refer to the style guide of the group or company you're working for,
+or what is most appropriate for the scene you're subtitling in.
 
 These guidelines are a living document,
 and will be updated as we continue to learn new techniques
 and further refine our best practices.
-They are by neither means exhaustive nor definitive.
+They are by no means exhaustive, nor are they definitive.
 These are not hard rules you must follow to the letter,
 and the hallmark of a good subtitler is knowing
 how to adapt as the situation demands,
