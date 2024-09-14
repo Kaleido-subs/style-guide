@@ -29,6 +29,7 @@ The content we cover is split into the following categories:
 -   [Dialogue Styling Guidelines](./dialogue_styling.md)
 -   [Timing Guidelines](./timing.md)
 -   [Editing Guidelines](./editing.md)
+-   [Song Styling Guidelines](./songstyling.md)
 -   [Shenanigans](./shenanigans.md)
 
 Vitally, this does not include certain aspects of modern-day subtitling
