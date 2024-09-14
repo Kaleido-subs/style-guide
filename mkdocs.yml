@@ -1,0 +1,50 @@
+site_name: Kaleido Fansubbing Management Guide
+site_description: A guide to creating and managing fansubbing projects.
+site_author: LightArrowsEXE
+site_url: https://example.com
+repo_url: https://github.com/Kaleido-subs/fansub-git-guide
+
+theme:
+  name: material
+  language: en
+  palette:
+    primary: purple
+    accent: indigo
+    scheme: slate
+  features:
+    - content.code.copy
+    - content.code.select
+    - navigation.expand
+
+nav:
+  - Home: index.md
+  - Project Repostiory:
+    - Git:
+      - Project Repository Setup: git/setup.md
+
+plugins:
+- search
+- mkdocstrings:
+    handlers:
+      python:
+        import:
+          - https://docs.python.org/3/objects.inv
+        options:
+          docstring_style: "sphinx"
+          show_symbol_type_heading: true
+          show_symbol_type_toc: true
+
+markdown_extensions:
+  - admonition
+  - footnotes
+  - tables
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.highlight:
+      pygments_style: "one-dark"
+      noclasses: true
+      linenums: true
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences

@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "kaleido-styleguide"
+version = "0.1.0"
+description = "The Kaleido Editing (and other) Styleguide"
+authors = ["LightArrowsEXE <Lightarrowsreboot@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+mkdocs-material = "^9.5.29"
+mkdocstrings = {extras = ["python"], version = "^0.25.1"}
+pymdown-extensions = "^10.8.1"
+
+[tool.poetry.group.dev.dependencies]
+isort = "^5.13.2"
+flake8 = "^7.1.0"
+mypy = "^1.10.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
