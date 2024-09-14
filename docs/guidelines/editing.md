@@ -113,20 +113,6 @@ Below is a quick overview of some common differences between British and America
          | Practise (verb), Practice (noun)     | Practice (both verb and noun)        |
          | Advice (noun), Advise (verb)         | Advice (noun), Advise (verb)         |
 
-    === "-ogue/-og"
-
-        !!! Note "Spelling differences"
-            British English often ends words with "-ogue" while American English uses "-og":
-
-         | British English | American English |
-         |-----------------|-------------------|
-         | Analogue        | Analog            |
-         | Dialogue        | Dialog            |
-         | Prologue        | Prolog            |
-         | Catalogue       | Catalog           |
-         | Monologue       | Monolog           |
-         | Pedagogue       | Pedagog           |
-
     === "Other words"
 
          | British English                                | American English        |
