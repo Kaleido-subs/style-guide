@@ -229,7 +229,7 @@ assuming a 1920x1080 video.
 
 Shadows are a nice-to-have addition,
 but is not required for dialogue to be readable.
-It brings with it the benefit of helping the dialogue "pop" out of the background,
+It helps the dialogue "pop" out of the background,
 further increasing readability.
 Shadows should ideally always be fully black
 and slightly transparent.
