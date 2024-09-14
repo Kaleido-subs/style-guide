@@ -144,6 +144,15 @@ Kaleido uses a dark-blue border for overlapping dialogue.
 
 ![Kaleido-subs overlapping dialogue style](./img/styling/kaleido-house-style-alt.png)
 
+For streaming services,
+it's more common to display overlapping dialogue
+and differentiate between them with a hyphen.
+This effect can be somewhat emulated with ASS
+by setting the alignment to \an7 (top-left)
+and by using margins to reposition the dialogue.
+This is not standard practice for Kaleido,
+and is discouraged unless there is a very good reason to do so.
+
 ## Positioning and margins
 
 Dialogue should be centred on screen,
