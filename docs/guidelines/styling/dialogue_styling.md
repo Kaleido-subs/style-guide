@@ -11,7 +11,71 @@ Many groups have different standards and opinions
 on what makes for good dialogue styling,
 but they should all generally adhere to the following guidelines.
 
-## Font style
+## Base Style
+
+The base style is the default style for all dialogue.
+You want to make sure it's easy to read,
+and not too distracting.
+
+!!! example "Styles used by different groups"
+    === "Kaleido"
+
+         ![Kaleido-subs dialogue style](./img/styling/groups/kaleido.png)
+
+         ```markdown
+         Style: Default,LTFinnegan Medium,72,&H00FFFFFF,&H00FFFFFF,&H00000000,&HA0000000,0,0,0,0,100,100,0,0,1,3.6,1.5,2,200,200,60,1
+         ```
+
+    === "Good Job! Media"
+
+         ![Good Job! Media dialogue style](./img/styling/groups/goodjobmedia.png)
+
+         ```markdown
+         Style: Default,Gandhi Sans,74,&H00FFFFFF,&H000000FF,&H00000000,&HA0000000,-1,0,0,0,100,100,0,0,1,3.6,1.5,2,200,200,56,1
+         ```
+
+    === "SubsPlease"
+
+        !!! Danger "Upsampled (640×360 ⇒ 1920×1080)"
+
+         ![SubsPlease dialogue style](./img/styling/groups/subsplease.png)
+
+         ```markdown
+         Style: Default,Roboto Medium,78,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,3.9,0,2,60,60,69,1
+         ```
+
+    === "DameDesuYo"
+
+         ![DameDesuYo dialogue style](./img/styling/groups/damedesuyo.png)
+
+         ```markdown
+         Style: Default,Cronos Pro,78,&H00FFFFFF,&H000000FF,&H0000003B,&H00000000,-1,0,0,0,100,100,0,0,1,3.75,0,2,225,225,45,1
+         ```
+
+    === "Commie"
+
+         ![Commie dialogue style](./img/styling/groups/commie.png)
+
+         ```markdown
+         Style: Default,Montara  Gothic,81,&H00FFFFFF,&H00003FFF,&H1E000000,&H96000000,0,0,0,0,100,100,0,0,1,3.6,0,2,135,135,45,1
+         ```
+    === "Chihiro"
+
+         ![Chihiro dialogue style](./img/styling/groups/chihiro.png)
+
+         ```markdown
+         Style: Default,Slate Pro Medium,70,&H00FFFFFF,&H00FFFFFF,&H00000000,&H96000000,0,0,0,0,100,100,0,0,1,3,1.5,2,255,255,60,1
+         ```
+
+    === "9volt"
+
+         ![9volt dialogue style](./img/styling/groups/9volt.png)
+
+         ```markdown
+         Style: Default,Volkhov,69,&H00FFFFFF,&H000000FF,&H00052030,&HA0052030,-1,0,0,0,100,105,0,0,1,4.75,2.1,2,275,275,60,1
+         ```
+
+### Font
 
 Like with most things fonts,
 finding the right one is a matter of personal taste
@@ -30,12 +94,10 @@ there are a handful of ground-rules that should be followed:
 If you're unsure about what font to use,
 it's a good idea to grab established styling from the bigger subtitling groups
 and use that as a base for your own.
-The default Kaleido font is [LTFinnegan](https://eng.fontke.com/family/145020/).
-A collection of common styles can be found [here](./common_dialogue_styling.md).
+The default Kaleido font is [LTFinnegan](https://eng.fontke.com/family/145020/),
+as can be seen above.
 
-![Kaleido-subs house style](./img/styling/kaleido-house-style.png)
-
-<details>
+<details class="example">
    <summary>Examples of good dialogue fonts</summary>
 
    <img src="../img/styling/common-dialogue-fonts.png" alt="Common subtitling dialogue fonts">
@@ -64,7 +126,8 @@ spacing lines too close together can look cluttered.
 Due to peculiarities in ASS rendering[^ass-fs],
 this also changes the rendered font size.
 
-![Visual examples of how line spacing affects dialogue fonts](img/styling/alegreya-line-spacing.png)
+!!! example "Visual example"
+    ![Visual examples of how line spacing affects dialogue fonts](img/styling/alegreya-line-spacing.png)
 
 When dealing with a font with ligatures that can be confused for other characters,
 it is recommended to either disable them in some fashion
@@ -97,7 +160,7 @@ Fonts with large character sets can be quite large,
 increasing the total size of your subtitles
 to include a lot of characters you may not need.
 
-## Colour
+### Colour
 
 The colour is arguably the most important part of dialogue styling.
 Using clashing or hard-to-read colours
@@ -140,9 +203,10 @@ that is kept at the same alignment as the dialogue it is overlapping.
 A distinction must be made,
 so most subtitling groups will use a different border colour.
 
-Kaleido uses a dark-blue border for overlapping dialogue.
+!!! example
+    Kaleido typically uses a dark-blue border for overlapping dialogue.
 
-![Kaleido-subs overlapping dialogue style](./img/styling/kaleido-house-style-alt.png)
+    ![Kaleido-subs overlapping dialogue style](./img/styling/groups/kaleido-alt.png)
 
 For streaming services,
 it's more common to display overlapping dialogue
@@ -153,7 +217,9 @@ and by using margins to reposition the dialogue.
 This is not standard practice for Kaleido,
 and is discouraged unless there is a very good reason to do so.
 
-## Positioning and margins
+## Subtitle location
+
+### Positioning
 
 Dialogue should be centred on screen,
 and be regularly positioned at the bottom of the screen.
@@ -190,7 +256,11 @@ and be avoided in important scenes
 so as not to distract the viewer's attention.
 We will cover this in more depth in the [shenanigans](../shenanigans.md) document.
 
-![More "fun" positioning](./img/styling/wacky-positioning.png)
+!!! example "More 'fun' positioning"
+
+     ![Dialogue positioned at the speaker's head](./img/styling/wacky-positioning.png)
+
+### Margins
 
 Safe margins are margins
 that keep the dialogue centred,
@@ -203,11 +273,13 @@ it will start breaking lines more aggressively,
 which can have a negative impact
 on the timing and editing of the line.
 
-For Kaleido,
-we set a margin of 200px for the left and right edges,
-and 60 on the top and bottom edges.
 
-![Kaleido's default margins](./img/styling/kaleido-house-style-margins.png)
+!!! example "Kaleido's default margins"
+    For Kaleido,
+    we set a margin of 200px for the left and right edges,
+    and 60 on the top and bottom edges.
+
+    ![Kaleido's default margins](./img/styling/kaleido-house-style-margins.png)
 
 Margins also decide when a line of dialogue will be automatically broken.
 We will cover this in more depth in the [editing](../editing.md) document,
@@ -224,7 +296,9 @@ as libass will determine that any event with a `\pos` value set
 is not dialogue,
 and thus not eligible for being overridden.
 
-## Borders and shadow
+## Outline
+
+### Borders
 
 Dialogue styling should _always_ have a border.
 As explained in the [colours](#colour) section,
@@ -232,13 +306,16 @@ borders help to improve readability
 by increasing contrast
 between the dialogue and the video background.
 
+!!! note "Safe values"
+    Safe values are generally between 2.5px and 4px,
+    assuming a 1920x1080 video.
+
 Borders should ideally not be too thick,
 as this is less pleasant on the eyes,
 but also not too thin,
 as that can make the dialogue blend in with the video too much.
 
-Safe values are generally between 2.5px and 4px,
-assuming a 1920x1080 video.
+### Shadows
 
 Shadows are a nice-to-have addition,
 but is not required for dialogue to be readable.
@@ -249,20 +326,27 @@ and slightly transparent.
 This helps to ensure that the shadow is not too heavy
 and does not overpower the dialogue.
 
-Safe values for shadows are generally between 1px and 2px,
-assuming a 1920x1080 video.
-For transparency,
-a value between 140 and 200 is usually best.
+!!! note "Safe values"
+    Safe values are generally between 1px and 2px,
+    assuming a 1920x1080 video.
+    For transparency,
+    a value between 140 and 200 is usually best.
 
-For Kaleido,
-we use a border of 3.6px,
-a shadow of 1.5px,
-and a shadow transparency of 160.
+!!! example "Kaleido's default borders and shadows"
 
-![Kaleido's default borders and shadows](./img/styling/kaleido-house-style-outline.png)
-![Kaleido's default shadow colour and transparency](./img/styling/kaleido-house-style-shadow-colour.png)
+    For Kaleido,
+    we use a border of 3.6px,
+    a shadow of 1.5px,
+    and a shadow transparency of 160.
 
-## Different resolutions
+    ![Kaleido's default borders and shadows](./img/styling/kaleido-house-style-outline.png)
+    ![Kaleido's default shadow colour and transparency](./img/styling/kaleido-house-style-shadow-colour.png)
+
+## Resampling
+
+!!! danger
+      Only resample subtitles if you're authoring them yourself!
+      Don't blindly resample dialogue from other releases!
 
 When dealing with different resolutions,
 dialogue styles should be resampled to the storage resolution.
