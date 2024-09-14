@@ -1,8 +1,8 @@
-site_name: Kaleido Fansubbing Management Guide
-site_description: A guide to creating and managing fansubbing projects.
+site_name: The Kaleido Subtitling Style Handbook
+site_description: A comprehensive guide for Kaleido's best subtitling practices
 site_author: LightArrowsEXE
 site_url: https://example.com
-repo_url: https://github.com/Kaleido-subs/fansub-git-guide
+repo_url: https://github.com/Kaleido-subs/style-guide
 
 theme:
   name: material
@@ -18,9 +18,12 @@ theme:
 
 nav:
   - Home: index.md
-  - Project Repostiory:
-    - Git:
-      - Project Repository Setup: git/setup.md
+  - Dialogue Styling: dialogue_styling.md
+  - Timing: timing.md
+  - Editing: editing.md
+  - Shenanigans: shenanigans.md
+  - Technical: technical.md
+  - Additional Resources: resources.md
 
 plugins:
 - search
