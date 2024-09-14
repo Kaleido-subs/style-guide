@@ -252,4 +252,23 @@ and a shadow transparency of 160.
 ![Kaleido's default borders and shadows](./img/styling/kaleido-house-style-outline.png)
 ![Kaleido's default shadow colour and transparency](./img/styling/kaleido-house-style-shadow-colour.png)
 
+## Different resolutions
+
+When dealing with different resolutions,
+dialogue styles should be resampled to the storage resolution.
+This means that if you're targetting a 720x480p anamorphic resolution video
+that stretches to 864x480,
+you should resample your dialogue to 720x480.
+
+Dialogue at different resolutions may require additional accessibility considerations.
+For example,
+if the viewer does not scale their video in their player,
+the dialogue may appear too small to be readable.
+While you can generally speaking safely assume
+that the rendered subtitles will be upscaled,
+this is not always the case,
+so it is important to ensure
+that the dialogue is still readable
+at the original resolution.
+
 [^ass-fs]: Specifically, \fs doesn't actually determine font size, rather than line spacing. Two lines with \fs72 will have their baselines 72px apart, and be scaled accordingly, causing font size to be reduced.
