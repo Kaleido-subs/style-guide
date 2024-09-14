@@ -11,6 +11,10 @@ Many groups have different standards and opinions
 on what makes for good dialogue styling,
 but they should all generally adhere to the following guidelines.
 
+**All examples on this page assume 1080p video.**
+If you are working with some other resolution,
+you may need to adjust values accordingly.
+
 ## Font style
 
 Like with most things fonts,
@@ -224,8 +228,7 @@ as this is less pleasant on the eyes,
 but also not too thin,
 as that can make the dialogue blend in with the video too much.
 
-Safe values are generally between 2.5px and 4px,
-assuming a 1920x1080 video.
+Safe values are generally between 2.5px and 4px.
 
 Shadows are a nice-to-have addition,
 but is not required for dialogue to be readable.
@@ -236,8 +239,7 @@ and slightly transparent.
 This helps to ensure that the shadow is not too heavy
 and does not overpower the dialogue.
 
-Safe values for shadows are generally between 1px and 2px,
-assuming a 1920x1080 video.
+Safe values for shadows are generally between 1px and 2px.
 For transparency,
 a value between 140 and 200 is usually best.
 
