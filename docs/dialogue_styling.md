@@ -1,5 +1,10 @@
 # Dialogue Styling Guidelines
 
+!!! warning
+    **All examples on this page assume 1080p video.**<br>
+    If you are working with some other resolution,
+    you may need to adjust values accordingly.
+
 Dialogue styling is a vital,
 yet often underappreciated aspect of subtitling.
 It encompasses the font, colour, and positioning of dialogue,
@@ -10,10 +15,6 @@ this is arguably one of the most important.
 Many groups have different standards and opinions
 on what makes for good dialogue styling,
 but they should all generally adhere to the following guidelines.
-
-**All examples on this page assume 1080p video.**
-If you are working with some other resolution,
-you may need to adjust values accordingly.
 
 ## Font style
 
