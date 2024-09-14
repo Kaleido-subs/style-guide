@@ -5,7 +5,7 @@ yet often underappreciated aspect of subtitling.
 It encompasses the font, colour, and positioning of dialogue,
 all of which can have a profound impact on the viewer's experience.
 
-Out of all topics discussed in this document,
+Out of all topics discussed in this handbook,
 this is arguably one of the most important.
 Many groups have different standards and opinions
 on what makes for good dialogue styling,
@@ -28,7 +28,7 @@ there are a handful of ground-rules that should be followed:
    and fit the style and aesthetics of the show.
 
 If you're unsure about what font to use,
-it's a good idea to grab established styling from the bigger fansubbing groups
+it's a good idea to grab established styling from the bigger subtitling groups
 and use that as a base for your own.
 The default Kaleido font is [LTFinnegan](https://eng.fontke.com/family/145020/).
 A collection of common styles can be found [here](./common_dialogue_styling.md).
@@ -38,7 +38,7 @@ A collection of common styles can be found [here](./common_dialogue_styling.md).
 <details>
    <summary>Examples of good dialogue fonts</summary>
 
-   <img src="./img/styling/common-dialogue-fonts.png" alt="Common fansubbing dialogue fonts">
+   <img src="./img/styling/common-dialogue-fonts.png" alt="Common subtitling dialogue fonts">
 </details>
 
 Popular options include Gandhi Sans, Cabin, and Lato.
@@ -76,7 +76,7 @@ While not required,
 it is highly advised you use a font that supports all common characters,
 including characters such as the em dash (—).
 Historically,
-fansubbing groups have used in-line tags to widen a regular hyphen,
+subtitling groups have used in-line tags to widen a regular hyphen,
 but this may introduce problems if the viewer overrides the style,
 and is also simply a less clean solution
 and a bad habit to get into.
@@ -138,7 +138,7 @@ In fansubbing,
 it is commonplace to use a different colour for overlapping dialogue
 that is kept at the same alignment as the dialogue it is overlapping.
 A distinction must be made,
-so most fansubbing groups will use a different border colour.
+so most subtitling groups will use a different border colour.
 
 Kaleido uses a dark-blue border for overlapping dialogue.
 
