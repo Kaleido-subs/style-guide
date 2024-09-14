@@ -1,5 +1,12 @@
 # Editing Guidelines
 
+!!! warning "Audience"
+    This document is written for an English-speaking audience.
+    If you are not editing in English,
+    a lot of the practices here may not apply to you.
+    Always make sure to refer to widely-accepted style guides
+    in the language you are editing in.
+
 Editing plays a crucial role in fansubbing,
 helping to make the original text more accessible
 and ensuring the intended message is effectively conveyed.
