@@ -26,94 +26,117 @@ but some groups such as Kaleido use British English for its subtitles.
 
 !!! Note "Consistency"
     British English is more flexible in which spellings you can use,
-    as it's not uncommon for both spellings to be accepted.
+    as it's not uncommon for both spellings to be commonly accepted.
     However,
     you should strive to keep your spelling consistent throughout the project.
 
 Below is a quick overview of some common differences between British and American English.
 
-=== "-ise/-ize"
+!!! Example "Differences between British and American English"
 
-    British English spellings often end in "-ise"[^endings] while American English uses "-ize":
+    === "-ise/-ize"
 
-    - Fantasise / Fantasize
-    - Apologise / Apologize
-    - Recognise / Recognize
-    - Realise, Realisation / Realize, Realization
-    - Organise, Organisation / Organize, Organization
-    - Customise, Customisation / Customize, Customization
+        !!! Note "Spelling differences"
+            British English spellings often end in "-ise",
+            while American English uses "-ize":
+            The spelling "-ize" is also often accepted in British English,
+            but required in American English.
 
-=== "ou/o"
+         | British English              | American English             |
+         |------------------------------|------------------------------|
+         | Fantasise                    | Fantasize                    |
+         | Apologise                    | Apologize                    |
+         | Recognise                    | Recognize                    |
+         | Realise, Realisation         | Realize, Realization         |
+         | Organise, Organisation       | Organize, Organization       |
+         | Customise, Customisation     | Customize, Customization     |
 
-    British English often uses "ou" where American English uses "o":
+    === "ou/o"
 
-    - Colour / Color
-    - Favourite / Favorite
-    - Rumour / Rumor
-    - Neighbour / Neighbor
-    - Labour / Labor
+        !!! Note "Spelling differences"
+            British English often uses "ou" where American English uses "o":
 
-=== "-re/-er"
+         | British English | American English |
+         |-----------------|-------------------|
+         | Colour          | Color             |
+         | Favourite       | Favorite          |
+         | Rumour          | Rumor             |
+         | Neighbour       | Neighbor          |
+         | Labour          | Labor             |
 
-    British English often ends words with "-re" while American English uses "-er":
+    === "-re/-er"
 
-    - Centre / Center
-    - Theatre / Theater[^theatre]
-    - Metre / Meter
-    - Calibre / Caliber
-    - Fibre / Fiber
-    - Litre / Liter
+        !!! Note "Spelling differences"
+            British English often ends words with "-re" while American English uses "-er":
 
-=== "ll/l"
+         | British English | American English |
+         |-----------------|-------------------|
+         | Centre          | Center            |
+         | Theatre         | Theater[^theatre] |
+         | Metre           | Meter             |
+         | Calibre         | Caliber           |
+         | Fibre           | Fiber             |
+         | Litre           | Liter             |
 
-    British English often doubles the "l" where American English uses a single "l":
+    === "ll/l"
 
-    - Travelling / Traveling
-    - Fuelling / Fueling
-    - Cancelled / Canceled
-    - Marvelling / Marveling
-    - Signalling / Signaling
-    - Labelling / Labeling
+        !!! Note "Spelling differences"
+            British English often doubles the "l" where American English uses a single "l":
 
-=== "-ce/-se"
+         | British English | American English |
+         |-----------------|-------------------|
+         | Travelling     | Traveling         |
+         | Fuelling       | Fueling           |
+         | Cancelled      | Canceled          |
+         | Marvelling     | Marveling         |
+         | Signalling     | Signaling         |
+         | Labelling      | Labeling          |
 
-    British English often uses "-ce" where American English uses "-se":
+    === "-ce/-se"
 
-    - Defence / Defense
-    - Offence / Offense
-    - Licence / License
-    - Pretence / Pretense
-    - Practise (verb), Practice (noun) / Practice (both verb and noun)
-    - Advice (noun), Advise (verb) / Advice (noun), Advise (verb)
+        !!! Note "Spelling differences"
+            British English often uses "-ce" where American English uses "-se":
 
-=== "-ogue/-og"
+         | British English                     | American English                    |
+         |--------------------------------------|--------------------------------------|
+         | Defence                              | Defense                              |
+         | Offence                              | Offense                              |
+         | Licence                              | License                              |
+         | Pretence                             | Pretense                             |
+         | Practise (verb), Practice (noun)     | Practice (both verb and noun)        |
+         | Advice (noun), Advise (verb)         | Advice (noun), Advise (verb)         |
 
-    British English often ends words with "-ogue" while American English uses "-og":
+    === "-ogue/-og"
 
-    - Analogue / Analog
-    - Dialogue / Dialog
-    - Prologue / Prolog
-    - Catalogue / Catalog
-    - Monologue / Monolog
-    - Pedagogue / Pedagog
+        !!! Note "Spelling differences"
+            British English often ends words with "-ogue" while American English uses "-og":
 
-=== "Other words"
+         | British English | American English |
+         |-----------------|-------------------|
+         | Analogue        | Analog            |
+         | Dialogue        | Dialog            |
+         | Prologue        | Prolog            |
+         | Catalogue       | Catalog           |
+         | Monologue       | Monolog           |
+         | Pedagogue       | Pedagog           |
 
-    Other spelling differences:
+    === "Other words"
 
-    - Enrol / Enroll
-    - Programme (TV and radio), Program (computer) / Program (all uses)
-    - Jewellery / Jewelry
-    - Plough / Plow
-    - Aluminium / Aluminum
-    - Draught / Draft
-    - Tyre / Tire
-    - Sceptical / Skeptical
-    - Ageing / Aging
-    - Cosy / Cozy
-    - Maths / Math
-    - Lorry / Truck
-    - Lift / Elevator
+         | British English                                | American English        |
+         |------------------------------------------------|-------------------------|
+         | Enrol                                          | Enroll                  |
+         | Programme (TV and radio), Program (computer)   | Program (all uses)      |
+         | Jewellery                                      | Jewelry                 |
+         | Plough                                         | Plow                    |
+         | Aluminium                                      | Aluminum                |
+         | Draught                                        | Draft                   |
+         | Tyre                                           | Tire                    |
+         | Sceptical                                      | Skeptical               |
+         | Ageing                                         | Aging                   |
+         | Cosy                                           | Cozy                    |
+         | Maths                                          | Math                    |
+         | Lorry                                          | Truck                   |
+         | Lift                                           | Elevator                |
 
 Besides dialect differences,
 there are a couple other spelling rules that are worth noting:
@@ -155,24 +178,27 @@ as punctuation rules and styles vary greatly between languages.
 
 The use of quotation marks varies between British and American English,
 
-=== "British English"
 
-    -   Double quotation marks are used when quoting,
-    and single marks are used when quoting within quotes.
-    -   If the punctuation is part of the quoted material,
-    it goes inside the quotation marks.
-    If not,
-    it goes outside.
-    - Exclamation and question marks are placed inside the quotation marks if they are part of the quoted material,
-    otherwise they are placed outside.
+!!! Example "Differences between British and American English"
 
-=== "American English"
+    === "British English"
 
-    -   Double quotation marks are used when quoting,
-    and single marks are used when quoting within quotes.
-    -   Periods and commas are always placed inside the quotation marks,
+        -   Double quotation marks are used when quoting,
+        and single marks are used when quoting within quotes.
+        -   If the punctuation is part of the quoted material,
+        it goes inside the quotation marks.
+        If not,
+        it goes outside.
+        - Exclamation and question marks are placed inside the quotation marks if they are part of the quoted material,
+        otherwise they are placed outside.
+
+    === "American English"
+
+        -   Double quotation marks are used when quoting,
+        and single marks are used when quoting within quotes.
+        -   Periods and commas are always placed inside the quotation marks,
         even if they are not part of the original quoted material.
-    -   Exclamation and question marks are placed inside the quotation marks if they are part of the quoted material,
+        -   Exclamation and question marks are placed inside the quotation marks if they are part of the quoted material,
         otherwise they are placed outside.
 
 ### Abbreviated titles
@@ -209,11 +235,11 @@ if they find out later.
 Numbers should be spelled out whenever reasonably possible,
 and if the characters-per-second (CPS) allows for it.
 
-| Number | Spelled Out              |
-| ------ | ------------------------ |
-| 36     | Thirty-six               |
-| 100    | One hundred / A hundred  |
-| 991    | Nine hundred ninety-one  |
+| Number | Spelled Out             |
+| ------ | ----------------------- |
+| 36     | Thirty-six              |
+| 100    | One hundred / A hundred |
+| 991    | Nine hundred ninety-one |
 
 !!! Abstract "Chicago Manual of Style"
     The [Chicago Manual of Style](https://www.chicagomanualofstyle.org/) has the following rules for numbers:
@@ -279,61 +305,75 @@ and should be avoided.
 Below are a few examples of garden-pathing,
 and how you may go about rewriting them[^gardenpath].
 
-=== "Example A"
+!!! Example "Garden-pathing"
+    === "Example A"
 
-    !!! quote Example
-        "The horse raced past the barn fell."
+        !!! Quote "Example Sentence"
+            "The horse raced past the barn fell."
 
-    **Explanation:** The reader initially assumes the horse is "racing past the barn",
-    but the sentence actually means that the horse _was_ raced past the barn,
-    and then it fell.
+        !!! abstract "Explanation"
+            The reader initially assumes the horse is "racing past the barn",
+            but the sentence actually means that the horse _was_ raced past the barn,
+            and then it fell.
 
-    **Rewritten:** "The horse that was raced past the barn fell."
+        !!! note "Rewritten"
+            "The horse that was raced past the barn fell."
 
-    **Why it's better:** Adding "that was" clarifies the relationship between the horse and the action of falling.
+        !!! abstract "Explanation"
+            Adding "that was" clarifies the relationship between the horse and the action of falling.
 
-=== "Example B"
+    === "Example B"
 
-    !!! quote Example
-        "The man who hunts ducks out on weekends."
+        !!! Quote "Example Sentence"
+            "The man who hunts ducks out on weekends."
 
-    **Explanation:** The reader initially assumes the sentence means that the old man "hunts ducks (the birds) out on weekends",
-    but "ducks out" is actually the verb "to duck out" (i.e. leave or avoid something).
+        !!! abstract "Explanation"
+            The reader initially assumes the sentence means that the old man "hunts ducks (the birds) out on weekends",
+            but "ducks out" is actually the verb "to duck out" (i.e. leave or avoid something).
 
-    **Rewritten:** "The man who hunts hides out on weekends."
+        !!! note "Rewritten"
+            "The man who hunts hides out on weekends."
 
-    **Why it's better:** Changing the verb to "hides" makes it clear that the old man is trying to avoid something
-    while avoiding the misunderstanding that he's hunting a specific animal on weekends.
+        !!! abstract "Explanation"
+            Changing the verb to "hides" makes it clear that the old man is trying to avoid something
+            while avoiding the misunderstanding that he's hunting a specific animal on weekends.
 
-=== "Example C"
+    === "Example C"
 
-    !!! quote Example
-        "The prime number few."
+        !!! Quote "Example Sentence"
+            "The prime number few."
 
-    **Explanation**: The reader initially assumes that "the prime number" is the subject of the sentence,
-    as in discussing a specific number (maths),
-    but the sentence is actually referring to a small number of prime people.
-    The "few" does not logically connect to "the prime number" when read sequentially.
+        !!! abstract "Explanation"
+            The reader initially assumes that "the prime number" is the subject of the sentence,
+            as in discussing a specific number (maths),
+            but the sentence is actually referring to a small number of prime people.
+            The "few" does not logically connect to "the prime number" when read sequentially.
 
-    **Rewritten:** "The few prime individuals." or "The number of prime individuals is few."
+        !!! note "Rewritten"
+            - "The few prime individuals."
+            - "The number of prime individuals is few."
 
-    **Why it's better:** Adding "individuals" makes it clear that the sentence is referring to a group of people.
+        !!! abstract "Explanation"
+            Adding "individuals" makes it clear that the sentence is referring to a group of people.
 
-=== "Example D"
+    === "Example D"
 
-    !!! quote Example
-        "While the girl sang the song pleased everyone."
+        !!! Quote "Example Sentence"
+            "While the girl sang the song pleased everyone."
 
-    **Explanation:** The reader initially assumes that "the girl sang the song",
-    but the sentence is actually saying that the song pleased everyone while the girl sang.
+        !!! abstract "Explanation"
+            The reader initially assumes that "the girl sang the song",
+            but the sentence is actually saying that the song pleased everyone while the girl sang.
 
-    **Rewritten:** "The song pleased everyone while the girl sang." or "As the girl was singing, the song pleased everyone." or "While the girl sang, the song pleased everyone."
+        !!! note "Rewritten"
+            - "The song pleased everyone while the girl sang."
+            - "As the girl was singing, the song pleased everyone."
+            - "While the girl sang, the song pleased everyone."
 
-    **Why it's better:**<br>
-        ⠀⠀⠀⠀- The first sentence clarifies that the song is the subject that pleased everyone<br>
-        ⠀⠀⠀⠀⠀and that the girl was singing during that time.<br>
-        ⠀⠀⠀⠀- The second makes the timing clearer by indicating an ongoing action.<br>
-        ⠀⠀⠀⠀- The third splits the clauses, separating "sang" and "the song".<br>
+        !!! abstract "Explanation"
+            - The first sentence clarifies that the song is the subject that pleased everyone<br>
+            - The second makes the timing clearer by indicating an ongoing action.<br>
+            - The third splits the clauses, separating "sang" and "the song".<br>
 
 As illustrated above,
 there are a variety of ways to rewrite sentences to avoid garden-pathing:
@@ -373,6 +413,5 @@ there are a variety of ways to rewrite sentences to avoid garden-pathing:
 
 ## Other Things of Note
 
-[^endings]: "-ize" is also often accepted in British English, but required in American English.
-[^theatre]: In some cases, "theatre" may still be used in American English, where a "theat*er*" is a venue you visit to watch plays, and "theat*re*" is the performance-driven art form.
+[^theatre]: In some cases, "theatre" may still be used in American English, where a "theat*re*" is a venue you visit to watch plays, and "theat*er*" is the performance-driven art form.
 [^gardenpath]: Most of these examples are taken from [this paper](https://pdfs.semanticscholar.org/260d/3b53b1376b5cd30881bbd3ce2472af507adc.pdf).
