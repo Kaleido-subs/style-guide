@@ -271,12 +271,12 @@ that stretches to 864x480,
 you should resample your dialogue to 720x480.
 
 !!! warning
-      When dealing with anamorphic video,
-      it is important to account for the display aspect ratio.
-      If your video stretches horizontally,
-      you should adjust the X scale value accordingly,
-      and vice versa for vertically stretching video.
-      Failure to do so will mean your dialogue won't scale correctly!
+    When dealing with anamorphic video,
+    you must account for the display aspect ratio.
+    If your video stretches horizontally,
+    you should adjust the X scale value accordingly,
+    and vice versa for vertically stretching video.
+    Failure to do so will mean your dialogue won't scale correctly!
 
 Dialogue at different resolutions may require additional accessibility considerations.
 For example,

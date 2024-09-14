@@ -355,7 +355,7 @@ there are a variety of ways to rewrite sentences to avoid garden-pathing:
 -   Regional dialects and accents, and the dangers thereof
 -   Age-appropriate language
 
-## Domestication vs. Foreignisation
+## Cultural Adaptation
 
 -   Adapting cultural references for the target audience
 -   Preserving the original cultural context
