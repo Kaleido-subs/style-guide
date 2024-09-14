@@ -173,7 +173,7 @@ if it would otherwise overlap with certain parts of the video,
 such as text.
 
 In certain scenes or for certain types of shows,
-there is a bit more leeway in being "fun" with dialogue position.
+there is a bit more leeway in being "fun" with dialogue positioning.
 However,
 this should be used sparingly,
 and be avoided in important scenes
@@ -219,7 +219,8 @@ and thus not eligible for being overridden.
 Dialogue styling should _always_ have a border.
 As explained in the [colours](#colour) section,
 borders help to improve readability
-by increasing contrast.
+by increasing contrast
+between the dialogue and the video background.
 
 Borders should ideally not be too thick,
 as this is less pleasant on the eyes,
