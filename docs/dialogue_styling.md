@@ -34,9 +34,11 @@ The default Kaleido font is [LTFinnegan](https://eng.fontke.com/family/145020/).
 
 ![Kaleido-subs house style](./img/styling/kaleido-house-style.png)
 
-Below are examples of other fonts that are recommended for dialogue:
+<details>
+   <summary>Examples of good dialogue fonts</summary>
 
-![Common fansubbing dialogue fonts](./img/styling/common-dialogue-fonts.png)
+   <img src="./img/styling/common-dialogue-fonts.png" alt="Common fansubbing dialogue fonts">
+</details>
 
 Popular options include Gandhi Sans, Cabin, and Lato.
 
