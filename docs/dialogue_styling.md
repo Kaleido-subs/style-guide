@@ -53,6 +53,16 @@ but not so large that it takes up too much of the screen.
 For Kaleido,
 we use a font size of 72 for the dialogue style.
 
+An often-overlooked part of fonts to consider is line spacing.
+If spaced too far apart,
+dialogue lines may appear disconnected to a viewer.
+On the other hand,
+spacing lines too close together can look cluttered.
+Due to peculiarities in ASS rendering[^ass-fs],
+this also changes the rendered font size.
+
+![Visual examples of how line spacing affects dialogue fonts](img/styling/alegreya-line-spacing.png)
+
 When dealing with a font with ligatures that can be confused for other characters,
 it is recommended to either disable them in some fashion
 if your subtitling renderer supports that,
@@ -238,3 +248,5 @@ and a shadow transparency of 160.
 
 ![Kaleido's default borders and shadows](./img/styling/kaleido-house-style-outline.png)
 ![Kaleido's default shadow colour and transparency](./img/styling/kaleido-house-style-shadow-colour.png)
+
+[^ass-fs]: Specifically, \fs doesn't actually determine font size, rather than line spacing. Two lines with \fs72 will have their baselines 72px apart, and be scaled accordingly, causing font size to be reduced.
