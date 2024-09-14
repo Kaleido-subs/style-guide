@@ -38,7 +38,7 @@ A collection of common styles can be found [here](./common_dialogue_styling.md).
 <details>
    <summary>Examples of good dialogue fonts</summary>
 
-   <img src="./img/styling/common-dialogue-fonts.png" alt="Common subtitling dialogue fonts">
+   <img src="../img/styling/common-dialogue-fonts.png" alt="Common subtitling dialogue fonts">
 </details>
 
 Popular options include Gandhi Sans, Cabin, and Lato.
@@ -188,7 +188,7 @@ However,
 this should be used sparingly,
 and be avoided in important scenes
 so as not to distract the viewer's attention.
-We will cover this in more depth in the [shenanigans](./shenanigans.md) document.
+We will cover this in more depth in the [shenanigans](../shenanigans.md) document.
 
 ![More "fun" positioning](./img/styling/wacky-positioning.png)
 
@@ -210,7 +210,7 @@ and 60 on the top and bottom edges.
 ![Kaleido's default margins](./img/styling/kaleido-house-style-margins.png)
 
 Margins also decide when a line of dialogue will be automatically broken.
-We will cover this in more depth in the [editing](./editing.md) document,
+We will cover this in more depth in the [editing](../editing.md) document,
 but it's important to understand
 that you will want to avoid breaking lines into more than 2 segments.
 Limiting it to 2 segments at most
@@ -271,12 +271,12 @@ that stretches to 864x480,
 you should resample your dialogue to 720x480.
 
 !!! warning
-   When dealing with anamorphic video,
-   it is important to account for the display aspect ratio.
-   If your video stretches horizontally,
-   you should adjust the X scale value accordingly,
-   and vice versa for vertically stretching video.
-   Failure to do so will mean your dialogue won't scale correctly!
+      When dealing with anamorphic video,
+      it is important to account for the display aspect ratio.
+      If your video stretches horizontally,
+      you should adjust the X scale value accordingly,
+      and vice versa for vertically stretching video.
+      Failure to do so will mean your dialogue won't scale correctly!
 
 Dialogue at different resolutions may require additional accessibility considerations.
 For example,

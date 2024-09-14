@@ -25,12 +25,12 @@ and when one should deviate from the norm or expected practices.
 
 The content we cover is split into the following categories:
 
--   [Technical Guidelines](./technical.md)
--   [Dialogue Styling Guidelines](./dialogue_styling.md)
--   [Timing Guidelines](./timing.md)
--   [Editing Guidelines](./editing.md)
--   [Song Styling Guidelines](./songstyling.md)
--   [Shenanigans](./shenanigans.md)
+-   [Technical Guidelines](./guidelines/technical.md)
+-   [Dialogue Styling Guidelines](./guidelines/styling/dialogue_styling.md)
+-   [Timing Guidelines](./guidelines/timing.md)
+-   [Editing Guidelines](./guidelines/editing.md)
+-   [Song Styling Guidelines](./guidelines/styling/songstyling.md)
+-   [Shenanigans](./guidelines/shenanigans.md)
 
 Vitally, this does not include certain aspects of modern-day subtitling
 such as typesetting.
