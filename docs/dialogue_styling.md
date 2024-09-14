@@ -182,7 +182,7 @@ and be avoided in important scenes
 so as not to distract the viewer's attention.
 We will cover this in more depth in the [shenanigans](./shenanigans.md) document.
 
-![More "fun" positioning](./img/styling/wacky-positioning.png)
+![Example of "fun" positioning: multiple "Welcome!" lines each horizontally aligned to the speaker](./img/styling/wacky-positioning.png)
 
 Safe margins are margins
 that keep the dialogue centred,
@@ -197,9 +197,9 @@ on the timing and editing of the line.
 
 For Kaleido,
 we set a margin of 200px for the left and right edges,
-and 60 on the top and bottom edges.
+and 60px on the top and bottom edges.
 
-![Kaleido's default margins](./img/styling/kaleido-house-style-margins.png)
+![Kaleido's default margins: Left 200, Right 200, Vert 60](./img/styling/kaleido-house-style-margins.png)
 
 Margins also decide when a line of dialogue will be automatically broken.
 We will cover this in more depth in the [editing](./editing.md) document,
@@ -228,24 +228,24 @@ as this is less pleasant on the eyes,
 but also not too thin,
 as that can make the dialogue blend in with the video too much.
 
-Safe values are generally between 2.5px and 4px.
+Safe values for border width are generally between 2.5px and 4px.
 
 Shadows are a nice-to-have addition,
 but is not required for dialogue to be readable.
-It brings with it the benefit of helping the dialogue "pop" out of the background,
+It helps the dialogue "pop" out of the background,
 further increasing readability.
 Shadows should ideally always be fully black
 and slightly transparent.
 This helps to ensure that the shadow is not too heavy
 and does not overpower the dialogue.
 
-Safe values for shadows are generally between 1px and 2px.
+Safe values for shadow offset are generally between 1px and 2px.
 For transparency,
 a value between 140 and 200 is usually best.
 
 For Kaleido,
-we use a border of 3.6px,
-a shadow of 1.5px,
+we use a border width of 3.6px,
+a shadow offset of 1.5px,
 and a shadow transparency of 160.
 
 ![Kaleido's default borders and shadows](./img/styling/kaleido-house-style-outline.png)
