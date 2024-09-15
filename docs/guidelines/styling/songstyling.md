@@ -20,8 +20,9 @@ Below are some approaches for determining how to style opening and ending songs.
 
 ## Credit Matching
 
-The most common form of song styling is to simply match the credit styling.
-Most credits are simply,
+The most common and often safest form of song styling
+is to simply match the credit styling.
+Most credits are simple,
 and it doesn't take much effort to match the styling.
 
 !!! example "Examples of simple credit matching"
