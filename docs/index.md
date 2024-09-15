@@ -25,16 +25,3 @@ nor are they intended to be the definitive word on the subject.
 The hallmark of a good subtitler is knowing
 how to adapt as the situation demands,
 and when one should deviate from the norm.
-
-The content we cover is split into the following categories:
-
--   [Dialogue Styling Guidelines](./guidelines/styling/dialogue_styling.md)
--   [Timing Guidelines](./guidelines/timing.md)
--   [Editing Guidelines](./guidelines/editing.md)
--   [Shenanigans](./guidelines/shenanigans.md)
--   [Song Styling Guidelines](./guidelines/styling/songstyling.md)
--   [Technical Guidelines](./guidelines/technical.md)
-
-Furthermore, we also provide additional resources,
-such as links to style guides of streaming services and other groups,
-as well as a list of software we recommend [here](./resources.md).

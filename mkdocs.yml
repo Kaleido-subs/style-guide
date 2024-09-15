@@ -18,6 +18,8 @@ theme:
 
 nav:
   - Home: index.md
+  - Group:
+    - Roles: group/roles.md
   - Guidelines:
     - Dialogue Styling: guidelines/styling/dialogue_styling.md
     - Timing: guidelines/timing.md
