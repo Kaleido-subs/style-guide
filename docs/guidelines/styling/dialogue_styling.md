@@ -17,6 +17,11 @@ The base style is the default style for all dialogue.
 You want to make sure it's easy to read
 and not too distracting.
 
+!!! danger
+     **All examples on this page assume 1080p video.**<br>
+     If you are working with some other resolution,
+     you may need to adjust values accordingly.
+
 !!! example "Styles used by various groups"
     === "Kaleido"
 
@@ -31,7 +36,7 @@ and not too distracting.
          ![Good Job! Media dialogue style](./img/styling/groups/goodjobmedia.png)
 
          ```markdown
-         Style: Default,Gandhi Sans,74,&H00FFFFFF,&H000000FF,&H00000000,&HA0000000,-1,0,0,0,100,100,0,0,1,3.6,1.5,2,200,200,56,1
+         Style: GJM_Main_1080p,Gandhi Sans,75,&H00FFFFFF,&H000000FF,&H00000000,&HA0000000,-1,0,0,0,100,100,0,0,1,3.6,1.5,2,225,225,60,1
          ```
 
     === "SubsPlease"
@@ -192,20 +197,25 @@ so most subtitling groups will use a different border colour.
 
 !!! example "Alt styles used by various groups"
     === "Kaleido"
-       ![Kaleido-subs overlapping dialogue style](./img/styling/groups/kaleido-alt.png)
+         ![Kaleido-subs overlapping dialogue style](./img/styling/groups/kaleido-alt.png)
 
-       ```markdown
-       Style: Default,LTFinnegan Medium,72,&H00FFFFFF,&H00FFFFFF,&H00000000,&HA0000000,0,0,0,0,100,100,0,0,1,3.6,1.5,2,200,200,60,1
-       ```
+         ```markdown
+         Style: Alt,LTFinnegan Medium,72,&H00FFFFFF,&H00FFFFFF,&H00564100,&HA0000000,0,0,0,0,100,100,0,0,1,3.6,1.5,2,200,200,60,1
+         ```
 
-For streaming services,
-it's more common to display overlapping dialogue
-and differentiate between them with a hyphen.
-This effect can be somewhat emulated with ASS
-by setting the alignment to \an7 (top-left)
-and by using margins to reposition the dialogue.
-This is not standard practice for Kaleido,
-and is discouraged unless there is a very good reason to do so.
+    === "Good Job! Media"
+         ![Good Job! Media overlapping dialogue style](./img/styling/groups/goodjobmedia-alt.png)
+
+         ```markdown
+         Style: GJM_Overlap_1080p,Gandhi Sans,75,&H00FFFFFF,&H000000FF,&H00743E15,&HA0000000,-1,0,0,0,100,100,0,0,1,3.6,1.5,2,225,225,60,1
+         ```
+
+    === "DameDesuYo"
+         ![DameDesuYo overlapping dialogue style](./img/styling/groups/damedesuyo-alt.png)
+
+         ```markdown
+         Style: Default - Alt,Cronos Pro,78,&H00FFFFFF,&H000000FF,&H003C1A00,&H00000000,-1,0,0,0,100,100,0,0,1,3.75,0,2,225,225,45,1
+         ```
 
 ## Subtitle location
 
@@ -246,8 +256,8 @@ and be avoided in important scenes
 so as not to distract the viewer's attention.
 We will cover this in more depth in the [shenanigans](../shenanigans.md) document.
 
-!!! example "More 'fun' positioning"
-    ![Dialogue positioned at the speaker's head](./img/styling/wacky-positioning.png)
+!!! example "Example of 'fun' positioning"
+    ![Example of "fun" positioning: multiple "Welcome!" lines each horizontally aligned to the speaker](./img/styling/wacky-positioning.png)
 
 ### Margins
 
@@ -262,7 +272,7 @@ it will start breaking lines more aggressively,
 which can have a negative impact
 on the timing and editing of the line.
 
-!!! example "Kaleido's default margins"
+!!! example "Kaleido's default margins: Left 200, Right 200, Vert 60"
     ![Kaleido's default margins](./img/styling/kaleido-house-style-margins.png)
 
 Margins also decide when a line of dialogue will be automatically broken.
@@ -291,8 +301,7 @@ by increasing contrast
 between the dialogue and the video background.
 
 !!! note "Safe values"
-    Safe values are generally between 2.5px and 4px,
-    assuming a 1920x1080 video.
+    A safe border width is between 2.5px and 4px.
 
 Borders should ideally not be too thick,
 as this is less pleasant on the eyes,
@@ -311,16 +320,13 @@ This helps to ensure that the shadow is not too heavy
 and does not overpower the dialogue.
 
 !!! note "Safe values"
-    Safe values are generally between 1px and 2px,
-    assuming a 1920x1080 video.
-    For transparency,
-    a value between 140 and 200 is usually best.
+    A safe shadow offset is between 1px and 2px,
+    with a shadow transparency of 140 to 180.
 
 !!! example "Kaleido's default borders and shadows"
 
-    For Kaleido,
-    we use a border of 3.6px,
-    a shadow of 1.5px,
+    Kaleido uses a border width of 3.6px,
+    a shadow offset of 1.5px,
     and a shadow transparency of 160.
 
     ![Kaleido's default borders and shadows](./img/styling/kaleido-house-style-outline.png)
