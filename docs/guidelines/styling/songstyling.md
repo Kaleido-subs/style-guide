@@ -69,10 +69,10 @@ the longer it may take to match.
         </iframe>
         !!! info "Styling by logarithm (DameDesuYo)"
 
-    === "Nijiiro Passions OP1"
-        <iframe src="https://streamable.com/e/v06bay" width="100%" height="410" frameborder="0" allowfullscreen>
+    === "Psycho-Pass OP1"
+        <iframe src="https://streamable.com/e/3k7jze" width="100%" height="410" frameborder="0" allowfullscreen>
         </iframe>
-        !!! info "Styling by bucket3432"
+        !!! info "Styling by Ryu (SCY)"
 
     === "Kami no Tou S2 OP1"
         <iframe src="https://streamable.com/e/r82ws9" width="100%" height="410" frameborder="0" allowfullscreen>
