@@ -69,10 +69,10 @@ the longer it may take to match.
         </iframe>
         !!! info "Styling by logarithm (DameDesuYo)"
 
-    === "Dimension W OP1"
-        <iframe src="https://streamable.com/e/lnen8f" width="100%" height="410" frameborder="0" allowfullscreen>
+    === "Nijiiro Passions OP1"
+        <iframe src="https://streamable.com/e/v06bay" width="100%" height="410" frameborder="0" allowfullscreen>
         </iframe>
-        !!! info "Styling by logarithm (DameDesuYo)"
+        !!! info "Styling by bucket3432"
 
     === "Kami no Tou S2 OP1"
         <iframe src="https://streamable.com/e/r82ws9" width="100%" height="410" frameborder="0" allowfullscreen>
