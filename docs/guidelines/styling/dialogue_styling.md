@@ -18,7 +18,7 @@ You want to make sure it's easy to read
 and not too distracting.
 
 !!! danger
-     **All examples on this page assume 1080p video.**<br>
+     **All examples on this page assume 1920×1080 video.**<br>
      If you are working with some other resolution,
      you may need to adjust values accordingly.
 
