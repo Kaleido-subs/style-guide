@@ -27,6 +27,18 @@ nav:
     - Shenanigans: guidelines/shenanigans.md
     - Song Styling: guidelines/styling/songstyling.md
     - Technical: guidelines/technical.md
+  - Building:
+    - Introduction: building/index.md
+    - Getting Started: building/getting-started.md
+    - Project Structure:
+      - Introduction: building/structure/index.md
+    - Subtitle Properties:
+      - Structure: building/properties/index.md
+    - Build Script:
+      - Introduction: building/build-script/index.md
+      - Tasks: building/build-script/tasks.md
+  - Release:
+    - Description: release/description.md
   - Additional Resources: resources.md
 
 plugins:

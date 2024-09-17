@@ -1,5 +1,12 @@
 # Technical Guidelines
 
+!!! warning "Stub"
+    This page is a [stub][wikipedia-stubs].
+    You can help by [expanding it][contributing].
+
+    ??? question "How can I help?"
+        Whip me into writing this page.
+
 This section contains technical guidelines for ASS subtitles,
 mostly involving technical aspects that ensure subtitles display correctly,
 or otherwise improve accessibility for viewers.
@@ -53,3 +60,7 @@ but do also touch upon performance and style override supports.
 - Release description and notes
 - Versioning
 - Hiding old releases
+
+[//]: # (stubs)
+[contributing]: https://github.com/Kaleido-subs/style-guide/pulls
+[wikipedia-stubs]: https://en.wikipedia.org/wiki/Wikipedia:Stubs

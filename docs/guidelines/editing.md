@@ -856,5 +856,5 @@ Rules that don't fit in the other categories.
 [^gardenpath]: Most of these examples are taken from [this paper](https://pdfs.semanticscholar.org/260d/3b53b1376b5cd30881bbd3ce2472af507adc.pdf).
 
 [//]: # (stubs)
-[contributing]: https://github.com/Jaded-Encoding-Thaumaturgy/JET-Guide?tab=readme-ov-file#contributing
+[contributing]: https://github.com/Kaleido-subs/style-guide/pulls
 [wikipedia-stubs]: https://en.wikipedia.org/wiki/Wikipedia:Stubs

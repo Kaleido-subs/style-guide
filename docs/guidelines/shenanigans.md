@@ -1,5 +1,12 @@
 # Shenanigans
 
+!!! warning "Stub"
+    This page is a [stub][wikipedia-stubs].
+    You can help by [expanding it][contributing].
+
+    ??? question "How can I help?"
+        Whip me into writing this page.
+
 Shenanigans speak to the more "fun" part of fansubbing.
 They're often meant to be humorous or light-hearted,
 but can also be used to otherwise enhance the viewer's experience.
@@ -34,3 +41,7 @@ Shenganigans that play in the background, giving you more leeway to be creative.
 - Font changes
 - Color coding
 - Easter eggs or hidden messages for attentive viewers
+
+[//]: # (stubs)
+[contributing]: https://github.com/Kaleido-subs/style-guide/pulls
+[wikipedia-stubs]: https://en.wikipedia.org/wiki/Wikipedia:Stubs
