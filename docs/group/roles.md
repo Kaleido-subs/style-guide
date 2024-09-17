@@ -101,7 +101,7 @@ This allows them to focus more on the greater picture,
 which the editor may miss if they become too caught up on individual lines.
 
 !!! tip "Optional Role"
-     This role is technically optional,
+     This role is _technically_ optional,
      and is sometimes filled by the original translator.
      With a sufficiently experienced translator-editor pair,
      there isn't always a need for a separate translation checker.

@@ -1,11 +1,12 @@
 # Editing Guidelines
 
-!!! warning "Target Audience"
-    This document is written for an English-speaking audience.
-    If you are not editing in English,
-    a lot of the practices here may not apply to you.
-    Always make sure to refer to widely-accepted style guides
-    in the language you are editing in.
+!!! warning "Stub"
+    This page is a [stub][wikipedia-stubs].
+    You can help by [expanding it][contributing].
+
+    ??? question "How can I help?"
+        You can help by expanding upon examples given in this document.
+        Examples should ideally be real-life examples from real releases.
 
 !!! danger "Editing Bible"
     This document is not the Bible,
@@ -13,6 +14,13 @@
     Editing is a creative process,
     and there are infinitely many schools of thought on how to best adapt a script.
     This document is simply a style guide to help maintain a somewhat consistent style to Kaleido releases.
+
+!!! warning "Target Language"
+    This document is written for an English-speaking audience.
+    If you are not editing in English,
+    a lot of the practices here may not apply to you.
+    Always make sure to refer to widely-accepted style guides
+    in the language you are editing in.
 
 Editing plays a crucial role in fansubbing,
 helping to make the original text more accessible
@@ -162,7 +170,7 @@ there are a couple other "rules" Kaleido follows:
          and there's nothing essentially wrong with using "alright",
          so long as it's not used as a blank stand-in.
 
-    === "OK/Ok"
+    === "OK/Okay"
 
          "OK" and "Ok" should almost always be fully spelled out as "okay".
 
@@ -188,6 +196,15 @@ as punctuation rules and styles vary greatly between languages.
         These often result in run-on sentences,
         which can be more difficult to read.
 
+        !!! failure "Incorrect"
+            "I love editing, it's my favorite hobby."
+
+        Instead, use appropriate punctuation or conjunctions:
+
+        !!! success "Correct"
+            - "I love editing. It's my favorite hobby."
+            - "I love editing, and it's my favorite hobby."
+
     === "Oxford comma"
 
         The Oxford comma is highly preferred.
@@ -197,14 +214,72 @@ as punctuation rules and styles vary greatly between languages.
         If you are unsure if an Oxford comma will help,
         it may be indicative that a line should be rewritten.
 
+        === "Adding clarity"
+            !!! failure "Incorrect"
+                "I dedicate this book to my parents, Ayn Rand and God."
+
+            !!! success "Correct"
+                "I dedicate this book to my parents, Ayn Rand, and God."
+
+            The Oxford comma clarifies that "parents", "Ayn Rand", and "God" are separate entities.
+
+        === "Preventing misunderstanding"
+            !!! failure "Incorrect"
+                "We invited the strippers, JFK and Stalin."
+
+            !!! success "Correct"
+                "We invited the strippers, JFK, and Stalin."
+
+            The Oxford comma makes it clear that JFK and Stalin are not the strippers.
+
+        === "When to rewrite"
+            Sometimes, even with an Oxford comma, a sentence can be ambiguous:
+
+            !!! quote "Ambiguous Sentence"
+                "I saw the elephant, my sister, and her husband at the zoo."
+
+            This could be read in two ways:
+
+            - That you saw the elephant, your sister, and her husband at the zoo.
+            - That your sister is an elephant, and you saw her with her husband.
+
+            In such cases, it's better to rewrite the line to remove the ambiguity.
+
+            !!! success "Rewritten"
+                "At the zoo, I saw an elephant. I also met my sister and her husband there."
+
+        === "Simplifying complex lists"
+            Consider this sentence with an Oxford comma:
+
+            !!! quote "Example Sentence"
+                "The menu includes fish and chips, macaroni and cheese, and peanut butter and jelly."
+
+            While technically correct, this can be hard to read.
+            Instead, consider rewriting the line so it's easier to understand:
+
+            !!! success "Rewritten"
+
+                - "The menu includes three items: fish and chips, macaroni and cheese, and peanut butter and jelly."
+                - "The menu offers three classic pairings: fish with chips, macaroni with cheese, and peanut butter with jelly."
+
     === "Abrupt ends"
 
         Use em dashes (—) for interruptions or abrupt changes in thought,
         not hyphens (-) or double hyphens (--).
 
+        !!! failure "Incorrect"
+            "I'm sorry, I'm sorry, I'm s--"
+
+        !!! success "Correct"
+            "I'm sorry, I'm sorry, I'm s—"
+
         In the case of trailing off,
         ellipses (...) may be used.
         However, also consider whether a full stop (.) would be more appropriate.
+
+        !!! success "Correct"
+            - "I don't know..."
+            - "I don't know."
 
     === "Ellipses spam"
 
@@ -300,123 +375,310 @@ as punctuation rules and styles vary greatly between languages.
 
 The use of quotation marks varies between British and American English,
 
-
 !!! example "Differences between British and American English"
 
-    === "British English"
+    === "Shared rules"
+
+        The rules between British and American English are very similar.
+        The following rule is shared by both:
 
         -   Double quotation marks are used when quoting,
         and single marks are used when quoting within quotes.
+
+        !!! failure "Incorrect"
+            The note said, "Exactly how long is "a few hours"?"
+
+        !!! success "Correct"
+            The note said, "Exactly how long is 'a few hours'?"
+
+        -   Exclamation and question marks are placed inside the quotation marks if they are part of the quoted material,
+        otherwise they are placed outside.
+
+        !!! failure "Incorrect"
+            I believe I heard her say "Are we there yet"?
+
+        !!! success "Correct"
+            I believe I heard her say "Are we there yet?"
+
+    === "British English"
+
         -   If the punctuation is part of the quoted material,
         it goes inside the quotation marks.
         If not,
         it goes outside.
-        - Exclamation and question marks are placed inside the quotation marks if they are part of the quoted material,
-        otherwise they are placed outside.
+
+        !!! failure "Incorrect"
+            She said, "I expect you to be home by midnight."
+
+        !!! success "Correct"
+            She said, "I expect you to be home by midnight".
 
     === "American English"
 
-        -   Double quotation marks are used when quoting,
-        and single marks are used when quoting within quotes.
         -   Periods and commas are always placed inside the quotation marks,
         even if they are not part of the original quoted material.
-        -   Exclamation and question marks are placed inside the quotation marks if they are part of the quoted material,
-        otherwise they are placed outside.
 
-### Abbreviated titles
+        !!! failure "Incorrect"
+            When I asked him if he wanted another piece of cake, he replied, "Yes".
 
-While Kaleido typically sticks to British English rules,
-there is one notable exception: abbreviated titles.
-We follow the American English convention,
-and use a full stop after the abbreviation.
-
-| British English | American English |
-| --------------- | ---------------- |
-| Mr              | Mr.              |
-| Dr              | Dr.              |
-| Mrs             | Mrs.             |
-| Ms              | Ms.              |
-
-However,
-do keep the difference between "Ms.",
-"Miss",
-and "Ms" in mind.
-"Miss" is a respectful way to refer to an unmarried woman,
-"Mrs." is used for a married woman,
-and "Ms." is when you're unsure,
-and generally the safest choice.
-If a common joke is that a female teacher is unmarried,
-you should refer to her as "Miss" rather than "Ms.".
-If it's unknown to some characters
-and they wouldn't reasonably assume them to be married,
-they should use "Ms." and switch to "Mrs."
-if they find out later.
-
-### Numbers
-
-Numbers should be spelled out whenever reasonably possible,
-and if the characters-per-second (CPS) allows for it.
-
-| Number | Spelled Out             |
-| ------ | ----------------------- |
-| 36     | Thirty-six              |
-| 100    | One hundred / A hundred |
-| 991    | Nine hundred ninety-one |
-
-!!! Abstract "Chicago Manual of Style"
-    The [Chicago Manual of Style](https://www.chicagomanualofstyle.org/) has the following rules for numbers:
-
-    -   Spell out numbers one through one hundred.
-    -   Spell out multiples of one through one hundred used in combination with hundred, thousand,<br>
-        or hundred thousand.
-
-    These are for written text so are not always applicable to subtitles,
-    but they're generally good rules to follow.
-
-In some cases,
-certain numbers appear frequently in a show.
-These should ideally be handled consistently throughout the project,
-and be edited while considering how that may impact future lines.
-
-| Original                         | Avoid                                                            |
-| -------------------------------- | ---------------------------------------------------------------- |
-| "Stop right there, Misaka 9982!" | "Stop right there, Misaka nine-thousand-nine-hundred-eighty-two! |
-
-Dates are an exception to this rule,
-and should always be written in numeric form.
-
-| Date                       | Avoid                                               |
-| -------------------------- | --------------------------------------------------- |
-| 1st of January             | First of January                                    |
-| Oct. 2                     | October Second                                      |
-| The 25th of December, 1998 | The twenty-fifth of December, nineteen-ninety-eight |
+        !!! success "Correct"
+            When I asked him if he wanted another piece of cake, he replied, "Yes."
 
 ### Sentence structure
 
-Dialogue flow is one of the core things that Kaleido editors focus on most.
+Dialogue flow is one of the things Kaleido editors focus on most.
 Subtitles are timed to fit the dialogue,
 and as such,
 it's important to make it as easy as possible for the viewer to understand in a short amount of time
 while flowing naturally.
 
-Sentences should be broken up into smaller clauses where reasonable,
-and presented to the viewer in a clear and concise manner.
-Ambiguity should be avoided,
-unless the original script calls for it,
-and may require some rewriting to make it clearer.
+!!! example "Sentence Structure"
+    === "Splitting"
 
-Japanese grammar is different from English,
-so it may be necessary to change the order of information in a sentence to make it sound more natural in English.
-The target audience's experience trumps all else,
-even if it comes at the cost of minor information loss.
+        Sentences should be broken up into smaller clauses where reasonable and natural.
 
-Try to avoid run-on sentences,
-as they are difficult to read and understand.
-If a sentence is too long,
-try to break it up into two shorter sentences.
-Exceptions may apply,
-such as when a character is speaking very quickly,
-or otherwise stumbling over their words.
+        !!! failure "Long and complex"
+            "The ancient castle, which had stood for centuries
+            on the hilltop overlooking the village,
+            was finally being restored to its former glory
+            after years of neglect and decay."
+
+        !!! success "Split into smaller clauses"
+            "The ancient castle stood on the hilltop overlooking the village.
+            It had been there for centuries.
+            After years of neglect and decay,
+            it was finally being restored to its former glory."
+
+        Splitting clauses makes it easier for viewer to process individual pieces of information.
+
+    === "Conciseness"
+
+        Aim for concise sentences that convey information efficiently.
+        This is especially important with subtitles,
+        as viewers have limited time to read each line.
+
+        !!! failure "Wordy"
+            "Due to the fact that it was raining heavily, we decided to cancel our plans for a picnic in the park."
+
+        !!! success "Concise"
+            "We cancelled our picnic because of the heavy rain."
+
+        Sentences can be wordier if the CPS is low,
+        as there's more time for the viewer to read each line.
+        Lines may also be extended sometimes,
+        as it's a bit confusing to have a single, short line
+        that takes up a lot of screen time.
+        This gives the viewer the wrong impression
+        that a lot of information is being cut.
+
+    === "Clarity"
+
+        Ambiguity should be avoided,
+        unless the original script calls for it.
+        If it's unclear what the intended meaning is,
+        it may require some rewriting to make it clearer,
+        even if it means inventing new information.
+
+        !!! failure "Ambiguous"
+            "She saw the man with the telescope."
+
+        !!! success "Clear"
+            - "She peeked through her telescope, and saw the man."
+            - "She saw the man holding tightly to his telescope."
+
+    === "Japaneseisms"
+
+        These are common "Japaneseisms",
+        or patterns common in Japanese-to-English translations,
+        that should be avoided.
+
+        === "Rearranging information"
+
+            English and Japanese have different grammatical structures,
+            which often requires rearranging information within a sentence for natural-sounding English.
+
+            Prioritizing the viewer's comprehension is key,
+            even if it means sacrificing minor details from the original.
+
+            !!! failure "Incorrect"
+                "Damn, being that bulletproof and with a blade that sharp, what do we do?"
+
+            !!! success "Correct"
+                "What can we even do against someone that's bulletproof _and_ has a blade that sharp?"
+
+        === "Set phrases or grammar"
+
+            Japanese often uses set phrases or grammatical structures
+            that sound unnatural when directly translated.
+            These should be rewritten to capture the intended meaning
+            while sounding more natural to an English audience.
+
+            Naturally,
+            how you rewrite these depends entirely on the original line,
+            the character speaking,
+            and the context they are speaking in.
+
+            !!! failure "Incorrect"
+                "What's with your expression? An expression resembling a main protagonist filled with courage."
+
+            !!! success "Correct"
+                "The heck? Why are you looking at me like some hero ready to take on the final boss?"
+
+            In some cases,
+            equivalent English set phrases may exist for the given context.
+            A common example of this is "Somebody!" vs. "Help me!".
+
+        === "Awkward repetition"
+
+            Avoid awkward repetition whenever possible.
+            This is common in Japanese,
+            but not in English.
+
+            !!! failure "Incorrect"
+                "Yeah, all right, all right."
+
+            !!! success "Correct"
+                "Yeah, whatever."
+
+            <hr>
+
+            !!! failure "Incorrect"
+                "I'm kidding, I'm kidding! Have a look, have a look!"
+
+            !!! success "Correct"
+                "I'm kidding. Have a look!"
+
+        === "Explicitness"
+
+            Japanese often relies on vague or implied context,
+            while English favours concreteness and explicitness.
+            When editing,
+            you should strive to make the intended meaning as clear as possible,
+            even if it means adding additional information,
+            or in rare cases even omitting some.
+
+            === "Implied subject/pronouns"
+
+                Japanese often omits the subjects or pronouns,
+                assuming the reader will understand from context.
+                In English, it's confusing if the subject is omitted,
+                so it should be added in the translation.
+
+            === "Ambiguous"
+
+                Japanese sentences can sometimes leave certain elements
+                like the time or actor implicit,
+                and depends a lot more on context than English.
+                In English,
+                these elements should be made more explicit if possible
+                to avoid confusion.
+
+                !!! failure "Incorrect"
+                    "He's going to his brother's house to meet his wife."
+
+                !!! success "Correct"
+                    "He's going to his brother's house to meet his brother's wife."
+
+                <hr>
+
+                !!! failure "Incorrect"
+                    "The document was delivered, and now it's being reviewed."
+
+                !!! success "Correct"
+                    "The team delivered the document, and now the manager is reviewing it."
+
+            === "Passive voice"
+
+                Japanese often uses passive constructions,
+                whereas English favours active voice.
+                Keeping lines in passive voice can sound unnatural or vague,
+                and sometimes even stilted.
+
+                !!! failure "Incorrect"
+                    "It is said that the castle was built by the king."
+
+                !!! success "Correct"
+                    "People say the king built the castle."
+
+            === "Overly polite"
+
+                Japanese often uses polite or indirect expressions,
+                especially when asking questions or making suggestions.
+                In English however, direct communication is preferred,
+                and indirectness can sound awkward or overly formal.
+
+                !!! failure "Incorrect"
+                    "Would it be okay if I asked you to help with this?"
+
+                !!! success "Correct"
+                    "Could you help me with this?"
+
+        === "Names"
+
+            === "Direct address"
+
+                It's common for Japanese to use a character's name in dialogue
+                when referring to them in the third person,
+                even when that character is the person being spoken to.
+                This sounds unnatural in English,
+                where we typically use pronouns like "you" instead.
+
+                !!! warning "Stub"
+                    This page is a [stub][wikipedia-stubs].
+                    You can help by [expanding it][contributing].
+
+                    ??? question "How can I help?"
+                        Help me find the perfect example for this page.
+                        I have some on the tip of my tongue, but I can't quite place them.
+
+            === "Repeated use"
+
+                Using a character's name repeatedly,
+                especially in conversations where it's obvious who's being addressed,
+                can feel overly formal or unnatural.
+
+            === "Role terms"
+
+                In Japanese, a person's role or relationship
+                is often used in place of their name,
+                such as "Onii-chan" for an elder brother,
+                and "Sensei" for a teacher.
+                This isn't anywhere near as common in English,
+                and should be used sparingly if possible.
+
+                !!! note "Older brother"
+                    In English, we don't have a specific term for an elder brother,
+                    and when a character is talking about their brother,
+                    having no adjective implies they are older,
+                    whereas "little" or "younger" more explicit signals they are younger.
+
+            === "Name order"
+
+                The Japanese name order is _Surname-First Name_,
+                whereas in English it's _First Name-Surname_.
+
+                There are many opinions on how to handle this,
+                but Kaleido follows the _spoken order_.
+
+    === "Run-on sentences"
+
+        Try to avoid run-on sentences,
+        as they are difficult to read and understand.
+        If a sentence is too long,
+        try to break it up into two shorter sentences.
+
+        !!! failure "Incorrect"
+            "The sun was setting, the birds were chirping, the flowers were blooming, it was a perfect spring evening."
+
+        !!! success "Correct"
+            "The sun was setting, birds were chirping, and flowers were blooming. It was a perfect spring evening."
+
+        Exceptions may apply,
+        such as when a character is speaking very quickly,
+        or otherwise stumbling over their words.
+
+        !!! success "Correct"
+            "Oh god, I was literally just with him, and before I knew it he said something like, 'I'm doing it' and I was like, 'Do what?' and then he _jumped_ off the bridge!"
 
 ### Garden-pathing
 
@@ -491,6 +753,81 @@ there are a variety of ways to rewrite sentences to avoid garden-pathing:
 -   Eliminating unnecessary modifiers or adjectives
 -   Using conjunctions ("and", "but", "or", "so", "for", etc.)
 
+### Miscellaneous
+
+Rules that don't fit in the other categories.
+
+!!! example "Miscellaneous"
+
+    === "Abbreviated titles"
+
+        While Kaleido typically sticks to British English rules,
+        there is one notable exception: abbreviated titles.
+        We follow the American English convention,
+        and use a full stop after the abbreviation.
+
+        | British English | American English |
+        | --------------- | ---------------- |
+        | Mr              | Mr.              |
+        | Dr              | Dr.              |
+        | Mrs             | Mrs.             |
+        | Ms              | Ms.              |
+
+        However,
+        keep the difference between "Ms.",
+        "Miss",
+        and "Ms" in mind.
+        "Miss" is a respectful way to refer to an unmarried woman,
+        "Mrs." is used for a married woman,
+        and "Ms." is when you're unsure,
+        and generally the safest choice.
+        If a common joke is that a female teacher is unmarried,
+        you should refer to her as "Miss" rather than "Ms.".
+        If it's unknown to some characters
+        and they wouldn't reasonably assume them to be married,
+        they should use "Ms." and switch to "Mrs."
+        if they find out later.
+
+    === "Numbers"
+
+        Numbers should be spelled out whenever reasonably possible,
+        and if the characters-per-second (CPS) allows for it.
+
+        | Number | Spelled Out             |
+        | ------ | ----------------------- |
+        | 36     | Thirty-six              |
+        | 100    | One hundred / A hundred |
+        | 991    | Nine hundred ninety-one |
+
+        ??? Abstract "Chicago Manual of Style"
+            The [Chicago Manual of Style](https://www.chicagomanualofstyle.org/) has the following rules for numbers:
+
+            -   Spell out numbers one through one hundred.
+            -   Spell out multiples of one through one hundred used in combination with hundred, thousand,<br>
+                or hundred thousand.
+
+            These are for written text so are not always applicable to subtitles,
+            but they're generally good rules to follow.
+
+        In some cases,
+        certain numbers appear frequently in a show.
+        These should ideally be handled consistently throughout the project,
+        and be edited while considering how that may impact future lines.
+
+        | Original                         | Avoid                                                            |
+        | -------------------------------- | ---------------------------------------------------------------- |
+        | "Stop right there, Misaka 9982!" | "Stop right there, Misaka nine-thousand-nine-hundred-eighty-two! |
+
+    === "Dates"
+
+        Dates should always be written in numeric form.
+
+        | Date                       | Avoid                                               |
+        | -------------------------- | --------------------------------------------------- |
+        | 1st of January             | First of January                                    |
+        | Oct. 2                     | October Second                                      |
+        | The 25th of December, 1998 | The twenty-fifth of December, nineteen-ninety-eight |
+
 ## TODO: rest of this
 
 ## Characterisation
@@ -521,3 +858,7 @@ there are a variety of ways to rewrite sentences to avoid garden-pathing:
 
 [^theatre]: In some cases, "theatre" may still be used in American English, where a "theat*re*" is a venue you visit to watch plays, and "theat*er*" is the performance-driven art form.
 [^gardenpath]: Most of these examples are taken from [this paper](https://pdfs.semanticscholar.org/260d/3b53b1376b5cd30881bbd3ce2472af507adc.pdf).
+
+[//]: # (stubs)
+[contributing]: https://github.com/Jaded-Encoding-Thaumaturgy/JET-Guide?tab=readme-ov-file#contributing
+[wikipedia-stubs]: https://en.wikipedia.org/wiki/Wikipedia:Stubs
