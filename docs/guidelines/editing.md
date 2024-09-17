@@ -744,14 +744,14 @@ and how you may go about rewriting them[^gardenpath].
 As illustrated above,
 there are a variety of ways to rewrite sentences to avoid garden-pathing:
 
--   Adding clarifying words (such as "that", "which", or "who")
--   Changing the verb
--   Adding additional context
--   Splitting the sentence
--   Using active voice
--   Reordering the sentence
--   Eliminating unnecessary modifiers or adjectives
--   Using conjunctions ("and", "but", "or", "so", "for", etc.)
+- Adding clarifying words (such as "that", "which", or "who")
+- Changing the verb
+- Adding additional context
+- Splitting the sentence
+- Using active voice
+- Reordering the sentence
+- Eliminating unnecessary modifiers or adjectives
+- Using conjunctions ("and", "but", "or", "so", "for", etc.)
 
 ### Miscellaneous
 
@@ -773,20 +773,15 @@ Rules that don't fit in the other categories.
         | Mrs             | Mrs.             |
         | Ms              | Ms.              |
 
-        However,
-        keep the difference between "Ms.",
-        "Miss",
-        and "Ms" in mind.
-        "Miss" is a respectful way to refer to an unmarried woman,
-        "Mrs." is used for a married woman,
-        and "Ms." is when you're unsure,
-        and generally the safest choice.
-        If a common joke is that a female teacher is unmarried,
-        you should refer to her as "Miss" rather than "Ms.".
-        If it's unknown to some characters
-        and they wouldn't reasonably assume them to be married,
-        they should use "Ms." and switch to "Mrs."
-        if they find out later.
+        !!! warning "The difference between "Ms.", "Miss", and "Mrs.""
+            "Miss" is used for unmarried women,
+            "Mrs." for married women,
+            and "Ms." when unsure or as a safe default.
+
+            Adjust based on context:
+
+            - For an unmarried teacher (if it's a common joke), use "Miss".
+            - If marital status is unknown, start with "Ms." and switch to "Mrs." if a marriage is revealed.
 
     === "Numbers"
 
@@ -832,27 +827,28 @@ Rules that don't fit in the other categories.
 
 ## Characterisation
 
--   Maintaining character voice and personality
--   Handling honorifics and name suffixes
--   Proper use of profanity and explicit language
--   Regional dialects and accents, and the dangers thereof
--   Age-appropriate language
+- Maintaining character voice and personality
+- Natural dialogue, but not _too_ colloquial (written script)
+- Proper use of profanity and explicit language
+- Regional dialects and accents, and the dangers thereof
+- Age-appropriate language
 
 ## Cultural Adaptation
 
--   Adapting cultural references for the target audience
--   Preserving the original cultural context
--   When to use each approach
--   Translating or adapting idioms and proverbs
--   Dealing with wordplay and puns
+- Adapting cultural references for the target audience
+- Preserving the original cultural context
+- When to use each approach
+- Handling honorifics and name suffixes
+- Translating or adapting idioms and proverbs
+- Dealing with wordplay and puns
 
 ## Formatting
 
--   Line breaks and readability
--   Italics and emphasis
--   Off-screen dialogue
--   "Safe" tags
--   Etc.
+- Line breaks and readability
+- Italics and emphasis
+- Off-screen dialogue
+- "Safe" tags
+- Etc.
 
 ## Other Things of Note
 
