@@ -142,7 +142,21 @@ This is among the most technically challenging roles,
 and often the task that takes the longest to complete.
 
 They should ensure that the typeset text is readable,
-performant, and (relatively) consistent across instances.
+performant, and looks (relatively) consistent across episodes.
+
+Typesetters must be familiar with the common tools of the trade,
+and be able to work relatively quickly.
+They get to decide how complex the typesetting should be,
+how similar it should be to the original signage,
+and how much time should be spent on it.
+
+!!! danger "Difficult Role"
+     Typesetting is not an easy task,
+     and should not be underestimated.
+     It takes a lot of skill and diligence to do it well,
+     and it's not a job you learn overnight,
+     especially with how quickly tools are written and updated,
+     or how quickly new techniques and best practices are developed.
 
 ## Song Styler
 
