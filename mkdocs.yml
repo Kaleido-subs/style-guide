@@ -22,8 +22,9 @@ nav:
     - Roles: group/roles.md
   - Guidelines:
     - Dialogue Styling: guidelines/styling/dialogue_styling.md
-    - Timing: guidelines/timing.md
+    - Translation: guidelines/translation.md
     - Editing: guidelines/editing.md
+    - Timing: guidelines/timing.md
     - Shenanigans: guidelines/shenanigans.md
     - Song Styling: guidelines/styling/songstyling.md
     - Typesetting: guidelines/typesetting.md
