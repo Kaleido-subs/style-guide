@@ -20,6 +20,7 @@ nav:
   - Home: index.md
   - Group:
     - Roles: group/roles.md
+    - Distribution: group/distribution.md
   - Guidelines:
     - Dialogue Styling: guidelines/styling/dialogue_styling.md
     - Translation: guidelines/translation.md
