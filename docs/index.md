@@ -1,14 +1,15 @@
 # The Kaleido Subtitling Style Handbook
 
 !!! tip "Disclaimer"
-    These guidelines are a living document,
-    and will be updated as we continue to learn new techniques
-    and further refine our best practices.
+    This document is a living document,
+    and is not meant to be the definitive word on the subject,
+    but rather a collection of guidelines and best practices
+    that we have found to be effective.
 
 !!! Danger "Editing Guidelines"
     Always ensure you follow the guidelines provided to you
     by the group or company you work for!<br>
-    This is especially important if you're working in an official capacity.
+    This is _especially_ important if you're working in an official capacity.
 
 This document covers different aspects of subtitling best practices.
 These guidelines are tailored to portraying subtitles in a way
