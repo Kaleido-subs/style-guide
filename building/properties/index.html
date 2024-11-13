@@ -1,0 +1,1605 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="A comprehensive guide for Kaleido's best subtitling practices">
+      
+      
+        <meta name="author" content="LightArrowsEXE">
+      
+      
+        <link rel="canonical" href="https://example.com/building/properties/">
+      
+      
+        <link rel="prev" href="../structure/">
+      
+      
+        <link rel="next" href="../build-script/">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.44">
+    
+    
+      
+        <title>Structure - The Kaleido Subtitling Style Handbook</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.0253249f.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/_mkdocstrings.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="purple" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#subtitle-properties" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="The Kaleido Subtitling Style Handbook" class="md-header__button md-logo" aria-label="The Kaleido Subtitling Style Handbook" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            The Kaleido Subtitling Style Handbook
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Structure
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/Kaleido-subs/style-guide" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="The Kaleido Subtitling Style Handbook" class="md-nav__button md-logo" aria-label="The Kaleido Subtitling Style Handbook" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    The Kaleido Subtitling Style Handbook
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/Kaleido-subs/style-guide" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Group
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Group
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../group/roles/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Roles
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../group/distribution/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Distribution
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Guidelines
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Guidelines
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../guidelines/styling/dialogue_styling/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Dialogue Styling
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../guidelines/translation/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Translation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../guidelines/editing/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Editing
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../guidelines/timing/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Timing
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../guidelines/shenanigans/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Shenanigans
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../guidelines/styling/songstyling/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Song Styling
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../guidelines/typesetting/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Typesetting
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../guidelines/technical/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Technical
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Building
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Building
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Introduction
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../getting-started/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Getting Started
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_3" id="__nav_4_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Project Structure
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_3">
+            <span class="md-nav__icon md-icon"></span>
+            Project Structure
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../structure/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Introduction
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_4" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_4_4" id="__nav_4_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Subtitle Properties
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4_4">
+            <span class="md-nav__icon md-icon"></span>
+            Subtitle Properties
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Structure
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Structure
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#basic-structure" class="md-nav__link">
+    <span class="md-ellipsis">
+      Basic Structure
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#key-sections" class="md-nav__link">
+    <span class="md-ellipsis">
+      Key Sections
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Key Sections">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#release-information" class="md-nav__link">
+    <span class="md-ellipsis">
+      Release Information
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#file-configuration" class="md-nav__link">
+    <span class="md-ellipsis">
+      File Configuration
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#font-settings" class="md-nav__link">
+    <span class="md-ellipsis">
+      Font Settings
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#oped-settings" class="md-nav__link">
+    <span class="md-ellipsis">
+      OP/ED Settings
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#episode-metadata" class="md-nav__link">
+    <span class="md-ellipsis">
+      Episode Metadata
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#example-configuration" class="md-nav__link">
+    <span class="md-ellipsis">
+      Example Configuration
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_5" id="__nav_4_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Build Script
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_5">
+            <span class="md-nav__icon md-icon"></span>
+            Build Script
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../build-script/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Introduction
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../build-script/tasks/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Tasks
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Release
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Release
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../release/description/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Description
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../resources/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Additional Resources
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#basic-structure" class="md-nav__link">
+    <span class="md-ellipsis">
+      Basic Structure
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#key-sections" class="md-nav__link">
+    <span class="md-ellipsis">
+      Key Sections
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Key Sections">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#release-information" class="md-nav__link">
+    <span class="md-ellipsis">
+      Release Information
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#file-configuration" class="md-nav__link">
+    <span class="md-ellipsis">
+      File Configuration
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#font-settings" class="md-nav__link">
+    <span class="md-ellipsis">
+      Font Settings
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#oped-settings" class="md-nav__link">
+    <span class="md-ellipsis">
+      OP/ED Settings
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#episode-metadata" class="md-nav__link">
+    <span class="md-ellipsis">
+      Episode Metadata
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#example-configuration" class="md-nav__link">
+    <span class="md-ellipsis">
+      Example Configuration
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+  
+
+
+<h1 id="subtitle-properties">Subtitle Properties</h1>
+<div class="admonition warning">
+<p class="admonition-title">Stub</p>
+<p>This page is a <a href="https://en.wikipedia.org/wiki/Wikipedia:Stubs">stub</a>.
+You can help by <a href="https://github.com/Kaleido-subs/style-guide/pulls">expanding it</a>.</p>
+<details class="question">
+<summary>How can I help?</summary>
+<p>You can help by updating this page with examples,
+and better splitting up the sections.</p>
+</details>
+</div>
+<p>The <code>sub.properties</code> file is used to configure the build script.
+This file contains various settings that control how the subtitles are processed
+and how the final output is generated.</p>
+<h2 id="basic-structure">Basic Structure</h2>
+<p>The <code>sub.properties</code> file is structured as an INI-like configuration file,
+with key-value pairs separated by an equals sign (<code>=</code>).
+Comments can be added using the hash symbol (<code>#</code>).</p>
+<h2 id="key-sections">Key Sections</h2>
+<h3 id="release-information">Release Information</h3>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">Description</label><label for="__tabbed_1_2">Example</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<div class="admonition info">
+<ul>
+<li>Basic Information: Details about the release group, show title, and shorthand names.</li>
+<li>Codec Information: Specifies video format, video codec, and audio codec.</li>
+<li>Track Names: Defines names for individual tracks (video, audio, subtitles).</li>
+</ul>
+</div>
+</div>
+<div class="tabbed-block">
+<div class="admonition example">
+<div class="highlight" style="background: #282C34"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-0-1"> 1</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-0-2"> 2</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-0-3"> 3</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-0-4"> 4</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-0-5"> 5</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-0-6"> 6</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-0-7"> 7</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-0-8"> 8</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-0-9"> 9</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-0-10">10</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-0-11">11</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-0-12">12</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-0-13">13</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-0-14">14</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-0-15">15</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-0-16">16</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-0-17">17</a></span></pre></div></td><td class="code"><div><pre style="line-height: 125%;"><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1"></a><span style="color: #7F848E"># Basic information</span>
+<a id="__codelineno-0-2" name="__codelineno-0-2"></a><span style="color: #E06C75">group</span><span style="color: #56B6C2">=</span><span style="color: #98C379">Kaleido-subs</span>
+<a id="__codelineno-0-3" name="__codelineno-0-3"></a><span style="color: #E06C75">jp_title</span><span style="color: #56B6C2">=</span><span style="color: #98C379">Some random show</span>
+<a id="__codelineno-0-4" name="__codelineno-0-4"></a><span style="color: #E06C75">shorthand</span><span style="color: #56B6C2">=</span><span style="color: #98C379">${jp_title}</span>
+<a id="__codelineno-0-5" name="__codelineno-0-5"></a><span style="color: #E06C75">shorthand_pmx</span><span style="color: #56B6C2">=</span><span style="color: #98C379">${shorthand}</span>
+<a id="__codelineno-0-6" name="__codelineno-0-6"></a>
+<a id="__codelineno-0-7" name="__codelineno-0-7"></a><span style="color: #7F848E"># Codec information</span>
+<a id="__codelineno-0-8" name="__codelineno-0-8"></a><span style="color: #E06C75">format</span><span style="color: #56B6C2">=</span><span style="color: #98C379">BD 1080p</span>
+<a id="__codelineno-0-9" name="__codelineno-0-9"></a><span style="color: #E06C75">vcodec</span><span style="color: #56B6C2">=</span><span style="color: #98C379">HEVC x265 10-bit</span>
+<a id="__codelineno-0-10" name="__codelineno-0-10"></a><span style="color: #E06C75">acodec</span><span style="color: #56B6C2">=</span><span style="color: #98C379">Opus 2.0</span>
+<a id="__codelineno-0-11" name="__codelineno-0-11"></a><span style="color: #E06C75">codec_info</span><span style="color: #56B6C2">=</span><span style="color: #98C379">${format} ${vcodec} ${acodec}</span>
+<a id="__codelineno-0-12" name="__codelineno-0-12"></a>
+<a id="__codelineno-0-13" name="__codelineno-0-13"></a><span style="color: #7F848E"># Track names</span>
+<a id="__codelineno-0-14" name="__codelineno-0-14"></a><span style="color: #E06C75">vtrack</span><span style="color: #56B6C2">=</span><span style="color: #98C379">x265</span>
+<a id="__codelineno-0-15" name="__codelineno-0-15"></a><span style="color: #E06C75">atrack</span><span style="color: #56B6C2">=</span><span style="color: #98C379">Opus 2.0 @ 192 kb/s</span>
+<a id="__codelineno-0-16" name="__codelineno-0-16"></a><span style="color: #E06C75">strack_reg</span><span style="color: #56B6C2">=</span><span style="color: #98C379">Full Subtitles [${group}]</span>
+<a id="__codelineno-0-17" name="__codelineno-0-17"></a><span style="color: #E06C75">strack_hono</span><span style="color: #56B6C2">=</span><span style="color: #98C379">Honorifics [${group}]</span>
+</code></pre></div></td></tr></table></div>
+</div>
+</div>
+</div>
+</div>
+<h3 id="file-configuration">File Configuration</h3>
+<div class="tabbed-set tabbed-alternate" data-tabs="2:2"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio" /><input id="__tabbed_2_2" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="__tabbed_2_1">Description</label><label for="__tabbed_2_2">Example</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<div class="admonition info">
+<ul>
+<li>Output Files: Naming conventions for muxed files and creditless versions.</li>
+<li>Episode Configuration: Specifies episode range and chapter generation settings.</li>
+<li>Script Components: File paths for subtitle components (dialogue, typesetting, inserts, warnings).</li>
+</ul>
+</div>
+</div>
+<div class="tabbed-block">
+<div class="admonition example">
+<div class="highlight" style="background: #282C34"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-1-1"> 1</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-1-2"> 2</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-1-3"> 3</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-1-4"> 4</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-1-5"> 5</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-1-6"> 6</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-1-7"> 7</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-1-8"> 8</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-1-9"> 9</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-1-10">10</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-1-11">11</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-1-12">12</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-1-13">13</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-1-14">14</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-1-15">15</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-1-16">16</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-1-17">17</a></span></pre></div></td><td class="code"><div><pre style="line-height: 125%;"><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1"></a><span style="color: #7F848E"># Output files</span>
+<a id="__codelineno-1-2" name="__codelineno-1-2"></a><span style="color: #E06C75">title</span><span style="color: #56B6C2">=</span><span style="color: #98C379">[${group}] ${jp_title} - ${tvdb} - (${codec_info})</span>
+<a id="__codelineno-1-3" name="__codelineno-1-3"></a><span style="color: #E06C75">muxdir</span><span style="color: #56B6C2">=</span><span style="color: #98C379">[${group}] ${jp_title} S${season} (${codec_info})</span>
+<a id="__codelineno-1-4" name="__codelineno-1-4"></a><span style="color: #E06C75">muxout</span><span style="color: #56B6C2">=</span><span style="color: #98C379">${muxdir}/$title [$mux.crc].mkv</span>
+<a id="__codelineno-1-5" name="__codelineno-1-5"></a><span style="color: #E06C75">ncmuxout</span><span style="color: #56B6C2">=</span><span style="color: #98C379">${muxdir}/Creditless/${muxout}</span>
+<a id="__codelineno-1-6" name="__codelineno-1-6"></a>
+<a id="__codelineno-1-7" name="__codelineno-1-7"></a><span style="color: #7F848E"># Episode configuration</span>
+<a id="__codelineno-1-8" name="__codelineno-1-8"></a><span style="color: #E06C75">episodes</span><span style="color: #56B6C2">=</span><span style="color: #98C379">{01..24}</span>
+<a id="__codelineno-1-9" name="__codelineno-1-9"></a><span style="color: #E06C75">chapters</span><span style="color: #56B6C2">=</span><span style="color: #98C379">${dialogue}</span>
+<a id="__codelineno-1-10" name="__codelineno-1-10"></a>
+<a id="__codelineno-1-11" name="__codelineno-1-11"></a><span style="color: #7F848E"># Script components</span>
+<a id="__codelineno-1-12" name="__codelineno-1-12"></a><span style="color: #E06C75">dialogue</span><span style="color: #56B6C2">=</span><span style="color: #98C379">${episode}/${shorthand} ${episode} - Dialogue.ass</span>
+<a id="__codelineno-1-13" name="__codelineno-1-13"></a><span style="color: #E06C75">extra</span><span style="color: #56B6C2">=</span><span style="color: #98C379">${episode}/${shorthand} ${episode} - Extra.ass</span>
+<a id="__codelineno-1-14" name="__codelineno-1-14"></a><span style="color: #E06C75">TS</span><span style="color: #56B6C2">=</span><span style="color: #98C379">${episode}/${shorthand} ${episode} - TS*.ass</span>
+<a id="__codelineno-1-15" name="__codelineno-1-15"></a><span style="color: #E06C75">INS</span><span style="color: #56B6C2">=</span><span style="color: #98C379">${episode}/${shorthand} ${episode} - INS*.ass</span>
+<a id="__codelineno-1-16" name="__codelineno-1-16"></a><span style="color: #E06C75">notes</span><span style="color: #56B6C2">=</span><span style="color: #98C379">${episode}/${shorthand} ${episode} - Notes.ass</span>
+<a id="__codelineno-1-17" name="__codelineno-1-17"></a><span style="color: #E06C75">render_warning</span><span style="color: #56B6C2">=</span><span style="color: #98C379">common/warning.ass</span>
+</code></pre></div></td></tr></table></div>
+</div>
+</div>
+</div>
+</div>
+<h3 id="font-settings">Font Settings</h3>
+<div class="tabbed-set tabbed-alternate" data-tabs="3:2"><input checked="checked" id="__tabbed_3_1" name="__tabbed_3" type="radio" /><input id="__tabbed_3_2" name="__tabbed_3" type="radio" /><div class="tabbed-labels"><label for="__tabbed_3_1">Description</label><label for="__tabbed_3_2">Example</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<div class="admonition info">
+<ul>
+<li>Font Directories: Locations of episode-specific and common fonts.</li>
+</ul>
+</div>
+</div>
+<div class="tabbed-block">
+<div class="admonition example">
+<div class="highlight" style="background: #282C34"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-2-1">1</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-2-2">2</a></span></pre></div></td><td class="code"><div><pre style="line-height: 125%;"><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1"></a><span style="color: #E06C75">fonts</span><span style="color: #56B6C2">=</span><span style="color: #98C379">${episode}/fonts</span>
+<a id="__codelineno-2-2" name="__codelineno-2-2"></a><span style="color: #E06C75">common_fonts</span><span style="color: #56B6C2">=</span><span style="color: #98C379">common/fonts</span>
+</code></pre></div></td></tr></table></div>
+</div>
+</div>
+</div>
+</div>
+<h3 id="oped-settings">OP/ED Settings</h3>
+<div class="tabbed-set tabbed-alternate" data-tabs="4:2"><input checked="checked" id="__tabbed_4_1" name="__tabbed_4" type="radio" /><input id="__tabbed_4_2" name="__tabbed_4" type="radio" /><div class="tabbed-labels"><label for="__tabbed_4_1">Description</label><label for="__tabbed_4_2">Example</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<div class="admonition info">
+<ul>
+<li>OP/ED Configuration: Configures opening and ending credit sequences, including episode usage and font locations.</li>
+<li>Creditless Videos: Settings for NCOPs/NCEDs (creditless openings and endings).</li>
+</ul>
+</div>
+</div>
+<div class="tabbed-block">
+<div class="admonition example">
+<div class="highlight" style="background: #282C34"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-3-1">1</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-3-2">2</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-3-3">3</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-3-4">4</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-3-5">5</a></span></pre></div></td><td class="code"><div><pre style="line-height: 125%;"><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1"></a><span style="color: #E06C75">OP1</span><span style="color: #56B6C2">=</span><span style="color: #98C379">${OP1}/${shorthand} - OP1.ass</span>
+<a id="__codelineno-3-2" name="__codelineno-3-2"></a><span style="color: #E06C75">ED1</span><span style="color: #56B6C2">=</span><span style="color: #98C379">${ED1}/${shorthand} - ED1.ass</span>
+<a id="__codelineno-3-3" name="__codelineno-3-3"></a>
+<a id="__codelineno-3-4" name="__codelineno-3-4"></a><span style="color: #E06C75">NCOP1</span><span style="color: #56B6C2">=</span><span style="color: #98C379">${OP1}/${shorthand} - NCOP1 (Premux).mkv</span>
+<a id="__codelineno-3-5" name="__codelineno-3-5"></a><span style="color: #E06C75">NCED1</span><span style="color: #56B6C2">=</span><span style="color: #98C379">${ED1}/${shorthand} - NCED1 (Premux).mkv</span>
+</code></pre></div></td></tr></table></div>
+</div>
+</div>
+</div>
+</div>
+<h3 id="episode-metadata">Episode Metadata</h3>
+<div class="tabbed-set tabbed-alternate" data-tabs="5:2"><input checked="checked" id="__tabbed_5_1" name="__tabbed_5" type="radio" /><input id="__tabbed_5_2" name="__tabbed_5" type="radio" /><div class="tabbed-labels"><label for="__tabbed_5_1">Description</label><label for="__tabbed_5_2">Example</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<div class="admonition info">
+<ul>
+<li>Episode Numbering: Configures numbering scheme to match TVDB, including special episodes and absolute numbers.</li>
+</ul>
+</div>
+</div>
+<div class="tabbed-block">
+<div class="admonition example">
+<div class="highlight" style="background: #282C34"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-4-1">1</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-4-2">2</a></span></pre></div></td><td class="code"><div><pre style="line-height: 125%;"><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1"></a><span style="color: #E06C75">tvdb</span><span style="color: #56B6C2">=</span><span style="color: #98C379">S${season}E${episode}</span>
+<a id="__codelineno-4-2" name="__codelineno-4-2"></a><span style="color: #E06C75">epabs</span><span style="color: #56B6C2">=</span><span style="color: #98C379">${episode}</span>
+</code></pre></div></td></tr></table></div>
+</div>
+</div>
+</div>
+</div>
+<h2 id="example-configuration">Example Configuration</h2>
+<p>Below is an example of a typical <code>sub.properties</code> file:</p>
+<div class="admonition example">
+<p class="admonition-title">Default subtitle properties file</p>
+<div class="highlight" style="background: #282C34"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-5-1"> 1</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-5-2"> 2</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-5-3"> 3</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-5-4"> 4</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-5-5"> 5</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-5-6"> 6</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-5-7"> 7</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-5-8"> 8</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-5-9"> 9</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-5-10">10</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-5-11">11</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-5-12">12</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-5-13">13</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-5-14">14</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-5-15">15</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-5-16">16</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-5-17">17</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-5-18">18</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-5-19">19</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-5-20">20</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-5-21">21</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-5-22">22</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-5-23">23</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-5-24">24</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-5-25">25</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-5-26">26</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-5-27">27</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-5-28">28</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-5-29">29</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-5-30">30</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-5-31">31</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-5-32">32</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-5-33">33</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-5-34">34</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-5-35">35</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-5-36">36</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-5-37">37</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-5-38">38</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-5-39">39</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-5-40">40</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-5-41">41</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-5-42">42</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-5-43">43</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-5-44">44</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-5-45">45</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-5-46">46</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-5-47">47</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-5-48">48</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-5-49">49</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-5-50">50</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-5-51">51</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-5-52">52</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-5-53">53</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-5-54">54</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-5-55">55</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-5-56">56</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-5-57">57</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-5-58">58</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-5-59">59</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-5-60">60</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-5-61">61</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-5-62">62</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-5-63">63</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-5-64">64</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-5-65">65</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-5-66">66</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-5-67">67</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-5-68">68</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-5-69">69</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-5-70">70</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-5-71">71</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-5-72">72</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-5-73">73</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-5-74">74</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-5-75">75</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-5-76">76</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-5-77">77</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-5-78">78</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-5-79">79</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-5-80">80</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-5-81">81</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-5-82">82</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-5-83">83</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-5-84">84</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-5-85">85</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-5-86">86</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-5-87">87</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-5-88">88</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-5-89">89</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-5-90">90</a></span>
+<span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;"><a href="#__codelineno-5-91">91</a></span></pre></div></td><td class="code"><div><pre style="line-height: 125%;"><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1"></a><span style="color: #7F848E"># Basic information.</span>
+<a id="__codelineno-5-2" name="__codelineno-5-2"></a><span style="color: #7F848E">### TODO: fill this in</span>
+<a id="__codelineno-5-3" name="__codelineno-5-3"></a><span style="color: #E06C75">group</span><span style="color: #56B6C2">=</span><span style="color: #98C379">Kaleido-subs</span><span style="color: #ABB2BF">                                  </span><span style="color: #7F848E"># Name of the release group</span>
+<a id="__codelineno-5-4" name="__codelineno-5-4"></a><span style="color: #E06C75">jp_title</span><span style="color: #56B6C2">=</span><span style="color: #ABB2BF">                                           </span><span style="color: #7F848E"># Japanese title of the show (to be filled in)</span>
+<a id="__codelineno-5-5" name="__codelineno-5-5"></a><span style="color: #E06C75">shorthand</span><span style="color: #56B6C2">=</span><span style="color: #98C379">${jp_title}</span><span style="color: #ABB2BF">                               </span><span style="color: #7F848E"># Shorthand name, using the Japanese title</span>
+<a id="__codelineno-5-6" name="__codelineno-5-6"></a><span style="color: #E06C75">shorthand_pmx</span><span style="color: #56B6C2">=</span><span style="color: #98C379">${shorthand}</span><span style="color: #ABB2BF">                          </span><span style="color: #7F848E"># Shorthand name for premux files</span>
+<a id="__codelineno-5-7" name="__codelineno-5-7"></a>
+<a id="__codelineno-5-8" name="__codelineno-5-8"></a>
+<a id="__codelineno-5-9" name="__codelineno-5-9"></a><span style="color: #7F848E"># Codec info</span>
+<a id="__codelineno-5-10" name="__codelineno-5-10"></a><span style="color: #E06C75">format</span><span style="color: #56B6C2">=</span><span style="color: #98C379">BD 1080p</span><span style="color: #ABB2BF">                                     </span><span style="color: #7F848E"># Video format (Blu-ray, 1080p resolution)</span>
+<a id="__codelineno-5-11" name="__codelineno-5-11"></a><span style="color: #E06C75">vcodec</span><span style="color: #56B6C2">=</span><span style="color: #98C379">HEVC x265 10-bit</span><span style="color: #ABB2BF">                             </span><span style="color: #7F848E"># Video codec (HEVC x265 with 10-bit color depth)</span>
+<a id="__codelineno-5-12" name="__codelineno-5-12"></a><span style="color: #E06C75">acodec</span><span style="color: #56B6C2">=</span><span style="color: #98C379">Opus 2.0</span><span style="color: #ABB2BF">                                     </span><span style="color: #7F848E"># Audio codec (Opus 2.0 channel)</span>
+<a id="__codelineno-5-13" name="__codelineno-5-13"></a><span style="color: #E06C75">codec_info</span><span style="color: #56B6C2">=</span><span style="color: #98C379">${format} ${vcodec} ${acodec}</span><span style="color: #ABB2BF">            </span><span style="color: #7F848E"># Combined codec information string</span>
+<a id="__codelineno-5-14" name="__codelineno-5-14"></a>
+<a id="__codelineno-5-15" name="__codelineno-5-15"></a>
+<a id="__codelineno-5-16" name="__codelineno-5-16"></a><span style="color: #7F848E"># Specific names for individual tracks. Should match codec info.</span>
+<a id="__codelineno-5-17" name="__codelineno-5-17"></a><span style="color: #E06C75">vtrack</span><span style="color: #56B6C2">=</span><span style="color: #98C379">x265</span><span style="color: #ABB2BF">                                         </span><span style="color: #7F848E"># Video track name</span>
+<a id="__codelineno-5-18" name="__codelineno-5-18"></a><span style="color: #E06C75">atrack</span><span style="color: #56B6C2">=</span><span style="color: #98C379">Opus 2.0 @ 192 kb/s</span><span style="color: #ABB2BF">                          </span><span style="color: #7F848E"># Audio track name with bitrate</span>
+<a id="__codelineno-5-19" name="__codelineno-5-19"></a><span style="color: #E06C75">strack_reg</span><span style="color: #56B6C2">=</span><span style="color: #98C379">Full Subtitles [${group}]</span><span style="color: #ABB2BF">                </span><span style="color: #7F848E"># Regular subtitle track name</span>
+<a id="__codelineno-5-20" name="__codelineno-5-20"></a><span style="color: #E06C75">strack_hono</span><span style="color: #56B6C2">=</span><span style="color: #98C379">Honorifics [${group}]</span><span style="color: #ABB2BF">                   </span><span style="color: #7F848E"># Honorifics subtitle track name</span>
+<a id="__codelineno-5-21" name="__codelineno-5-21"></a>
+<a id="__codelineno-5-22" name="__codelineno-5-22"></a>
+<a id="__codelineno-5-23" name="__codelineno-5-23"></a><span style="color: #7F848E"># Show-related (output) files</span>
+<a id="__codelineno-5-24" name="__codelineno-5-24"></a><span style="color: #E06C75">title</span><span style="color: #56B6C2">=</span><span style="color: #98C379">[${group}] ${jp_title} - ${tvdb} - (${codec_info})</span><span style="color: #ABB2BF">  </span><span style="color: #7F848E"># Title format for regular episodes</span>
+<a id="__codelineno-5-25" name="__codelineno-5-25"></a><span style="color: #E06C75">{SP*}.title</span><span style="color: #56B6C2">=</span><span style="color: #98C379">[${group}] ${jp_title} - ${epabs} (${episode}) - ${tvdb} - (${format} ${vcodec} ${acodec})</span><span style="color: #ABB2BF">  </span><span style="color: #7F848E"># Title format for special episodes</span>
+<a id="__codelineno-5-26" name="__codelineno-5-26"></a><span style="color: #E06C75">premux</span><span style="color: #56B6C2">=</span><span style="color: #98C379">${episode}/*(Premux)*.mkv</span><span style="color: #ABB2BF">                    </span><span style="color: #7F848E"># Path pattern for premux files</span>
+<a id="__codelineno-5-27" name="__codelineno-5-27"></a>
+<a id="__codelineno-5-28" name="__codelineno-5-28"></a><span style="color: #E06C75">muxdir</span><span style="color: #56B6C2">=</span><span style="color: #98C379">[${group}] ${jp_title} (${codec_info})</span><span style="color: #ABB2BF">       </span><span style="color: #7F848E"># Directory name for muxed files</span>
+<a id="__codelineno-5-29" name="__codelineno-5-29"></a><span style="color: #E06C75">muxout</span><span style="color: #56B6C2">=</span><span style="color: #98C379">${muxdir}/$title [$mux.crc].mkv</span><span style="color: #ABB2BF">              </span><span style="color: #7F848E"># Output filename for muxed files</span>
+<a id="__codelineno-5-30" name="__codelineno-5-30"></a><span style="color: #E06C75">ncmuxout</span><span style="color: #56B6C2">=</span><span style="color: #98C379">${muxdir}/Creditless/${muxout}</span><span style="color: #ABB2BF">             </span><span style="color: #7F848E"># Output filename for creditless (NC) muxed files</span>
+<a id="__codelineno-5-31" name="__codelineno-5-31"></a>
+<a id="__codelineno-5-32" name="__codelineno-5-32"></a>
+<a id="__codelineno-5-33" name="__codelineno-5-33"></a><span style="color: #7F848E"># Episodes and other basic features.</span>
+<a id="__codelineno-5-34" name="__codelineno-5-34"></a><span style="color: #E06C75">episodes</span><span style="color: #56B6C2">=</span><span style="color: #98C379">{01..24}|SP{1..2}</span><span style="color: #ABB2BF">                          </span><span style="color: #7F848E"># Episode range, including specials</span>
+<a id="__codelineno-5-35" name="__codelineno-5-35"></a><span style="color: #E06C75">chapters</span><span style="color: #56B6C2">=</span><span style="color: #98C379">${dialogue}</span><span style="color: #ABB2BF">                                </span><span style="color: #7F848E"># Generate chapters from dialogue file</span>
+<a id="__codelineno-5-36" name="__codelineno-5-36"></a>
+<a id="__codelineno-5-37" name="__codelineno-5-37"></a>
+<a id="__codelineno-5-38" name="__codelineno-5-38"></a><span style="color: #7F848E"># Individual script components</span>
+<a id="__codelineno-5-39" name="__codelineno-5-39"></a><span style="color: #E06C75">dialogue</span><span style="color: #56B6C2">=</span><span style="color: #98C379">${episode}/${shorthand} ${episode} - Dialogue.ass</span><span style="color: #ABB2BF">  </span><span style="color: #7F848E"># Path for dialogue subtitle file</span>
+<a id="__codelineno-5-40" name="__codelineno-5-40"></a><span style="color: #E06C75">extra</span><span style="color: #56B6C2">=</span><span style="color: #98C379">${episode}/${shorthand} ${episode} - Extra.ass</span><span style="color: #ABB2BF">        </span><span style="color: #7F848E"># Path for extra subtitle file</span>
+<a id="__codelineno-5-41" name="__codelineno-5-41"></a><span style="color: #E06C75">TS</span><span style="color: #56B6C2">=</span><span style="color: #98C379">${episode}/${shorthand} ${episode} - TS*.ass</span><span style="color: #ABB2BF">             </span><span style="color: #7F848E"># Path pattern for typesetting files</span>
+<a id="__codelineno-5-42" name="__codelineno-5-42"></a><span style="color: #E06C75">INS</span><span style="color: #56B6C2">=</span><span style="color: #98C379">${episode}/${shorthand} ${episode} - INS*.ass</span><span style="color: #ABB2BF">           </span><span style="color: #7F848E"># Path pattern for insert files</span>
+<a id="__codelineno-5-43" name="__codelineno-5-43"></a><span style="color: #E06C75">render_warning</span><span style="color: #56B6C2">=</span><span style="color: #98C379">common/warning.ass</span><span style="color: #ABB2BF">                           </span><span style="color: #7F848E"># Path for rendering warning file</span>
+<a id="__codelineno-5-44" name="__codelineno-5-44"></a>
+<a id="__codelineno-5-45" name="__codelineno-5-45"></a>
+<a id="__codelineno-5-46" name="__codelineno-5-46"></a><span style="color: #7F848E">## Per-episode fonts, e.g. typesetting</span>
+<a id="__codelineno-5-47" name="__codelineno-5-47"></a><span style="color: #E06C75">fonts</span><span style="color: #56B6C2">=</span><span style="color: #98C379">${episode}/fonts</span><span style="color: #ABB2BF">                              </span><span style="color: #7F848E"># Directory for episode-specific fonts</span>
+<a id="__codelineno-5-48" name="__codelineno-5-48"></a><span style="color: #7F848E">## Common fonts, e.g. dialogue and titles</span>
+<a id="__codelineno-5-49" name="__codelineno-5-49"></a><span style="color: #E06C75">common_fonts</span><span style="color: #56B6C2">=</span><span style="color: #98C379">common/fonts</span><span style="color: #ABB2BF">                           </span><span style="color: #7F848E"># Directory for common fonts used across episodes</span>
+<a id="__codelineno-5-50" name="__codelineno-5-50"></a>
+<a id="__codelineno-5-51" name="__codelineno-5-51"></a>
+<a id="__codelineno-5-52" name="__codelineno-5-52"></a><span style="color: #7F848E"># OP/ED scripts and episode numbers</span>
+<a id="__codelineno-5-53" name="__codelineno-5-53"></a><span style="color: #7F848E">## Common OP/EDs</span>
+<a id="__codelineno-5-54" name="__codelineno-5-54"></a><span style="color: #E06C75">{02..12}.OP_name</span><span style="color: #56B6C2">=</span><span style="color: #98C379">NCOP1</span><span style="color: #ABB2BF">                              </span><span style="color: #7F848E"># Opening 1 used in episodes 2-12</span>
+<a id="__codelineno-5-55" name="__codelineno-5-55"></a><span style="color: #E06C75">{13..24}.OP_name</span><span style="color: #56B6C2">=</span><span style="color: #98C379">NCOP2</span><span style="color: #ABB2BF">                              </span><span style="color: #7F848E"># Opening 2 used in episodes 13-24</span>
+<a id="__codelineno-5-56" name="__codelineno-5-56"></a><span style="color: #E06C75">{01..12}.ED_name</span><span style="color: #56B6C2">=</span><span style="color: #98C379">NCED1</span><span style="color: #ABB2BF">                              </span><span style="color: #7F848E"># Ending 1 used in episodes 1-12</span>
+<a id="__codelineno-5-57" name="__codelineno-5-57"></a><span style="color: #E06C75">{13..24}.ED_name</span><span style="color: #56B6C2">=</span><span style="color: #98C379">NCED2</span><span style="color: #ABB2BF">                              </span><span style="color: #7F848E"># Ending 2 used in episodes 13-24</span>
+<a id="__codelineno-5-58" name="__codelineno-5-58"></a>
+<a id="__codelineno-5-59" name="__codelineno-5-59"></a><span style="color: #E06C75">OP</span><span style="color: #56B6C2">=</span><span style="color: #98C379">${OP_name}/${shorthand} ${OP_name}.ass</span><span style="color: #ABB2BF">           </span><span style="color: #7F848E"># Path for opening subtitle file</span>
+<a id="__codelineno-5-60" name="__codelineno-5-60"></a><span style="color: #E06C75">ED</span><span style="color: #56B6C2">=</span><span style="color: #98C379">${ED_name}/${shorthand} ${ED_name}.ass</span><span style="color: #ABB2BF">           </span><span style="color: #7F848E"># Path for ending subtitle file</span>
+<a id="__codelineno-5-61" name="__codelineno-5-61"></a>
+<a id="__codelineno-5-62" name="__codelineno-5-62"></a><span style="color: #7F848E">## Fonts</span>
+<a id="__codelineno-5-63" name="__codelineno-5-63"></a><span style="color: #E06C75">opfonts</span><span style="color: #56B6C2">=</span><span style="color: #98C379">${OP_name}/fonts</span><span style="color: #ABB2BF">                            </span><span style="color: #7F848E"># Directory for opening-specific fonts</span>
+<a id="__codelineno-5-64" name="__codelineno-5-64"></a><span style="color: #E06C75">edfonts</span><span style="color: #56B6C2">=</span><span style="color: #98C379">${ED_name}/fonts</span><span style="color: #ABB2BF">                            </span><span style="color: #7F848E"># Directory for ending-specific fonts</span>
+<a id="__codelineno-5-65" name="__codelineno-5-65"></a>
+<a id="__codelineno-5-66" name="__codelineno-5-66"></a>
+<a id="__codelineno-5-67" name="__codelineno-5-67"></a><span style="color: #7F848E"># Creditless</span>
+<a id="__codelineno-5-68" name="__codelineno-5-68"></a><span style="color: #E06C75">ncs</span><span style="color: #56B6C2">=</span><span style="color: #98C379">NCOP{1..2}|NCED{1..2}</span><span style="color: #ABB2BF">                           </span><span style="color: #7F848E"># Creditless opening and ending patterns</span>
+<a id="__codelineno-5-69" name="__codelineno-5-69"></a>
+<a id="__codelineno-5-70" name="__codelineno-5-70"></a><span style="color: #E06C75">ncsubs</span><span style="color: #56B6C2">=</span><span style="color: #98C379">${episode}/${shorthand}_${episode}.ass</span><span style="color: #ABB2BF">       </span><span style="color: #7F848E"># Path for creditless subtitle file</span>
+<a id="__codelineno-5-71" name="__codelineno-5-71"></a><span style="color: #E06C75">ncpremux</span><span style="color: #56B6C2">=</span><span style="color: #98C379">${episode}/${shorthand}_${episode} (Premux).mkv</span><span style="color: #ABB2BF">  </span><span style="color: #7F848E"># Path for creditless premux file</span>
+<a id="__codelineno-5-72" name="__codelineno-5-72"></a><span style="color: #E06C75">ncfonts</span><span style="color: #56B6C2">=</span><span style="color: #98C379">${episode}/fonts</span><span style="color: #ABB2BF">                            </span><span style="color: #7F848E"># Directory for creditless-specific fonts</span>
+<a id="__codelineno-5-73" name="__codelineno-5-73"></a>
+<a id="__codelineno-5-74" name="__codelineno-5-74"></a>
+<a id="__codelineno-5-75" name="__codelineno-5-75"></a><span style="color: #7F848E">## Episode numbers following TVDB.</span>
+<a id="__codelineno-5-76" name="__codelineno-5-76"></a><span style="color: #7F848E">### Moved to the bottom because it&#39;s very spammy.</span>
+<a id="__codelineno-5-77" name="__codelineno-5-77"></a><span style="color: #E06C75">tvdb</span><span style="color: #56B6C2">=</span><span style="color: #98C379">S${season}E${epnum}</span><span style="color: #ABB2BF">                            </span><span style="color: #7F848E"># TVDB episode numbering format</span>
+<a id="__codelineno-5-78" name="__codelineno-5-78"></a>
+<a id="__codelineno-5-79" name="__codelineno-5-79"></a><span style="color: #E06C75">season</span><span style="color: #56B6C2">=</span><span style="color: #98C379">01</span><span style="color: #ABB2BF">                                           </span><span style="color: #7F848E"># Default season number</span>
+<a id="__codelineno-5-80" name="__codelineno-5-80"></a><span style="color: #E06C75">epnum</span><span style="color: #56B6C2">=</span><span style="color: #98C379">${episode}</span><span style="color: #ABB2BF">                                    </span><span style="color: #7F848E"># Episode number (same as episode variable)</span>
+<a id="__codelineno-5-81" name="__codelineno-5-81"></a>
+<a id="__codelineno-5-82" name="__codelineno-5-82"></a><span style="color: #7F848E">### S00 episodes.</span>
+<a id="__codelineno-5-83" name="__codelineno-5-83"></a><span style="color: #E06C75">{SP*}.season</span><span style="color: #56B6C2">=</span><span style="color: #98C379">00</span><span style="color: #ABB2BF">                                     </span><span style="color: #7F848E"># Set season to 00 for all special episodes</span>
+<a id="__codelineno-5-84" name="__codelineno-5-84"></a><span style="color: #E06C75">SP1.epnum</span><span style="color: #56B6C2">=</span><span style="color: #98C379">01</span><span style="color: #ABB2BF">                                        </span><span style="color: #7F848E"># Episode number for Special 1</span>
+<a id="__codelineno-5-85" name="__codelineno-5-85"></a><span style="color: #E06C75">SP2.epnum</span><span style="color: #56B6C2">=</span><span style="color: #98C379">02</span><span style="color: #ABB2BF">                                        </span><span style="color: #7F848E"># Episode number for Special 2</span>
+<a id="__codelineno-5-86" name="__codelineno-5-86"></a><span style="color: #E06C75">SP3.epnum</span><span style="color: #56B6C2">=</span><span style="color: #98C379">03</span><span style="color: #ABB2BF">                                        </span><span style="color: #7F848E"># Episode number for Special 3</span>
+<a id="__codelineno-5-87" name="__codelineno-5-87"></a>
+<a id="__codelineno-5-88" name="__codelineno-5-88"></a><span style="color: #7F848E">### S00 absolute-ish episode number, used for easier user readability.</span>
+<a id="__codelineno-5-89" name="__codelineno-5-89"></a><span style="color: #E06C75">SP1.epabs</span><span style="color: #56B6C2">=</span><span style="color: #98C379">07.5</span><span style="color: #ABB2BF">                                      </span><span style="color: #7F848E"># Absolute episode number for Special 1</span>
+<a id="__codelineno-5-90" name="__codelineno-5-90"></a><span style="color: #E06C75">SP2.epabs</span><span style="color: #56B6C2">=</span><span style="color: #98C379">12.5</span><span style="color: #ABB2BF">                                      </span><span style="color: #7F848E"># Absolute episode number for Special 2</span>
+<a id="__codelineno-5-91" name="__codelineno-5-91"></a><span style="color: #E06C75">SP3.epabs</span><span style="color: #56B6C2">=</span><span style="color: #98C379">25</span><span style="color: #ABB2BF">                                        </span><span style="color: #7F848E"># Absolute episode number for Special 3</span>
+</code></pre></div></td></tr></table></div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["content.code.copy", "content.code.select", "navigation.expand"], "search": "../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.83f73b43.min.js"></script>
+      
+    
+  </body>
+</html>
